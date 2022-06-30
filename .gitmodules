@@ -3,7 +3,7 @@
 	url = https://github.com/526avijitgupta/gokarna.git
 [submodule "themes/themes/anubis"]
 	path = themes/anubis
-	url = https://github.com/mitrichius/hugo-theme-anubis.git
+	url = https://github.com/LiemDQ/hugo-theme-anubis.git 
 [submodule "themes/congo"]
 	path = themes/congo
 	url = https://github.com/jpanther/congo.git
