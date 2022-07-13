@@ -26,8 +26,8 @@ In line with the recommendations of [this talk](https://www.youtube.com/watch?v=
 
 Rephrased in technical jargon, rucksacc is a multi-pass compiler frontend that uses a [control-flow graph](https://en.wikipedia.org/wiki/Control-flow_graph) intermediate representation, but defers optimization details like register allocation to Cranelift. The parsing step uses a hand-coded recursive descent parser, but uses [Pratt parsing](http://journal.stuffwithstuff.com/2011/03/19/pratt-parsers-expression-parsing-made-easy/) to evaluate expressions. The [C lexing problem](https://en.wikipedia.org/wiki/Lexer_hack) is solved by deferring identifier classification to the semantic analysis step.
 
-# Shine
-Shine is a basic raytracer, written in Rust. It is capable of simulating diffraction, reflection, refraction, focal blur, shadows, and more!
+# Shine - WIP
+[Shine](https://github.com/LiemDQ/shine) is a basic raytracer, written in Rust. It is capable of simulating diffraction, reflection, refraction, focal blur, shadows, and more!
 
 Shine was written from scratch, with only a single 3rd-party dependency (for random number generation).
 
