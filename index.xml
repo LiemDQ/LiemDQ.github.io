@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Liem Dam-Quang</title><link>https://liem.ca/</link><description>Liem Dam-Quang</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://liem.ca/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://liem.ca/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://liem.ca/about/</guid><description>&lt;p>I am a self-taught programmer and (not self-taught) engineer. I graduated with a degree in chemical engineering from &lt;a href="https://www.mcgill.ca/">McGill University&lt;/a>. Most recently I was an early employee and propulsion engineer for &lt;a href="https://www.spaceryde.com/">SpaceRyde&lt;/a>, a small satellite launch startup, but I&amp;rsquo;ve been fortunate enough to have had the opportunity to dabble in a lot of fields.&lt;/p>
+&lt;p>Some of my technical interests are space exploration, advanced manufacturing, synthetic biology, and energy policy.&lt;/p>
+&lt;h1 id="resume" >Resume
+&lt;span>
+&lt;a href="#resume">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;p>&lt;a href="https://liem.ca/doc/CV.pdf">PDF&lt;/a> (may not be up to date)&lt;/p>
+&lt;h1 id="about-this-website" >About this website
+&lt;span>
+&lt;a href="#about-this-website">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;p>This is a place for me to publish my various thoughts (perhaps a more apt description is &amp;ldquo;shout into the void&amp;rdquo;). I have a fairly broad range of topics I am interested in and I don&amp;rsquo;t have any particularly strong criteria on what should be a post other than it being a discussion I feel is worth sharing—for better or for worse.&lt;/p>
+&lt;p>The site uses &lt;a href="https://gohugo.io/">Hugo&lt;/a>, a static site generator. The design is based on the &lt;a href="https://github.com/mitrichius/hugo-theme-anubis">Anubis&lt;/a> theme, although with &lt;a href="https://github.com/LiemDQ/hugo-theme-anubis">several modifications of my own&lt;/a>.&lt;/p>
+&lt;h1 id="contacting-me" >Contacting me
+&lt;span>
+&lt;a href="#contacting-me">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;p>I am not very active on social media. The best way to get in touch with me is through &lt;a href="mailto:liem.daq@gmail.com">email&lt;/a>.&lt;/p></description></item><item><title>Projects</title><link>https://liem.ca/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://liem.ca/projects/</guid><description>&lt;p>This is an informal list of some projects I&amp;rsquo;ve worked on. Most of these were done in my spare time.&lt;/p>
+&lt;h1 id="tlsf-pmr" >tlsf-pmr
+&lt;span>
+&lt;a href="#tlsf-pmr">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;p>&lt;a href="https://github.com/LiemDQ/tlsf-pmr">tlsf-pmr&lt;/a> is a C++17 implementation of the Two-Level Segregated Fit (TLSF) memory allocator by Masmano et al. (2004), but adapted for use with the &lt;code>std::pmr&lt;/code> polymorphic allocator API and with a permissive license (compared to the reference C implementation, which has a GPL license).&lt;/p>
+&lt;p>This allows it to be used in any standard library container or algorithm that accepts custom memory allocators, such as &lt;code>std::vector&lt;/code>. TLSF is a pool allocator features an allocation complexity of $O(1)$, as well as low levels of fragmentation, making it appropriate for use cases that require deterministic execution times, such as real-time applications. The original paper can be found &lt;a href="http://www.gii.upv.es/tlsf/files/ecrts04_tlsf.pdf">here&lt;/a>.&lt;/p>
+&lt;p>In line with the recommendations of &lt;a href="https://www.youtube.com/watch?v=LIb3L4vKZ7U">this talk&lt;/a> on memory allocator design by Andrei Alexandrescu, it also features the ability to configure custom upstream allocators, which are used when the pool has insufficient memory to support an allocation.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://liem.ca/img/TLSF.png" alt="TLSF data structures">
+&lt;figcaption>An overview of the allocation algorithm. It makes sense if you read the paper. I swear.&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h1 id="hustl" >hustl
+&lt;span>
+&lt;a href="#hustl">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;p>&lt;a href="https://github.com/LiemDQ/vuestl">hustl&lt;/a> is a performant, cross-platform STL file viewer written in Rust. It is written to support complex, high-polygon shapes and supports GPU acceleration using WebGPU and compiles to both native binaries and WebAssembly. It has very fast load times thanks to the use of vertex indexing along with extensive parallelism—it can load a 3 million polygon model (pictured below) in around 270ms on an AMD Ryzen 5 3600X CPU and a GeForce GTX 660. I suppose you could call it &lt;em>blazingly fast&lt;/em> 🚀 👈 😎 👈&lt;/p>
+&lt;figure>
+&lt;img src="https://liem.ca/img/hustl_ss3.png" width="75%">
+&lt;figcaption>Model obtained from Szimuly Casba on &lt;a href="https://grabcad.com/library/wonder-woman-2">GrabCad&lt;/a>.&lt;/figcaption>
+&lt;/figure>
+&lt;h1 id="rucksacc---wip" >rucksacc - WIP
+&lt;span>
+&lt;a href="#rucksacc---wip">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;p>&lt;a href="https://github.com/LiemDQ/rucksacc">rucksacc&lt;/a> is a C compiler that aims to be compliant with C11, written in Rust and using the Cranelift code generation backend. It is fairly fully-featured, supporting the preprocessor as well as code optimizations. However, it should still be considered a &amp;ldquo;toy&amp;rdquo; compiler. In particular, robust error handling is one of the trickiest parts of modern compiler frontends, and Rucksacc&amp;rsquo;s implementation is fairly simplistic.&lt;/p>
+&lt;p>Rephrased in technical jargon, rucksacc is a multi-pass compiler frontend that uses a &lt;a href="https://en.wikipedia.org/wiki/Control-flow_graph">control-flow graph&lt;/a> intermediate representation, but defers optimization details like register allocation to Cranelift. The parsing step uses a hand-coded recursive descent parser, but uses &lt;a href="http://journal.stuffwithstuff.com/2011/03/19/pratt-parsers-expression-parsing-made-easy/">Pratt parsing&lt;/a> to evaluate expressions. The &lt;a href="https://en.wikipedia.org/wiki/Lexer_hack">C lexing problem&lt;/a> is solved by deferring identifier classification to the semantic analysis step.&lt;/p>
+&lt;h1 id="shine" >Shine
+&lt;span>
+&lt;a href="#shine">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;p>Shine is a basic raytracer, written in Rust. It is capable of simulating diffraction, reflection, refraction, focal blur, shadows, and more!&lt;/p>
+&lt;p>Shine was written from scratch, with only a single 3rd-party dependency (for random number generation).&lt;/p>
+&lt;h1 id="sounding-rockets" >Sounding rockets
+&lt;span>
+&lt;a href="#sounding-rockets">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;p>As an undergraduate student, one of my main extracurricular activities was building and flying high-powered &lt;a href="https://en.wikipedia.org/wiki/Sounding_rocket">sounding rockets&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://liem.ca/doc/MRT_Caladan_Technical_Report.pdf">Caladan&lt;/a> was a 30,000 ft solid motor rocket built and flown at &lt;a href="https://spaceportamericacup.com/">Spaceport America Cup (SAC) 2019&lt;/a>, completely built and designed from scratch by students.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://liem.ca/img/rocket_surgery.jpg" alt="A picture of Caladan">
+&lt;figcaption>Burning the midnight oil performing rocket surgery on Caladan&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>&lt;a href="https://liem.ca/doc/MRT_Blanche.pdf">Blanche&lt;/a> was a 10,000 ft solid motor rocket flown at SAC 2018, where it placed 1st in its category and went on to win the Spaceport America Cup.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://liem.ca/img/blanche_group_photo.jpg" alt="A group picture of Blanche">
+&lt;figcaption>Smelly, sleepless students smile sunnily with Blanche in foreground&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>&lt;a href="https://liem.ca/doc/Ariel_PDR.pdf">Ariel&lt;/a> was a proposed 300,000 ft apogee liquid engine rocket that would have been, at the time, the first student-researched-and-designed liquid rocket to breach the Karman line. Due to manpower and schedule restrictions, Ariel was shelved after the preliminary design stage, thereby joining a long, illustrious list of aerospace vehicle concepts that get cancelled before ever seeing the light of day.&lt;/p>
+&lt;h1 id="characterization-of-metal-oxide-water-splitting-catalysts" >Characterization of metal oxide water splitting catalysts
+&lt;span>
+&lt;a href="#characterization-of-metal-oxide-water-splitting-catalysts">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;p>In undergrad, I worked in an research lab where we produced and characterized cathodes for the hydrogen evolution reaction, a.k.a. water splitting for green hydrogen production. Our motivation was to determine to what extent adding iridium to nickel-molybdenum oxides would improve their electrocatalytic performance. Iridium is a very good water splitting catalyst, but is very expensive; molydenum and nickel are much cheaper but are less effective.&lt;/p>
+&lt;p>Additionally, nickel electrodes are prone to degradation in acidic media (found in, e.g., &lt;a href="https://en.wikipedia.org/wiki/Proton-exchange_membrane_fuel_cell">PEM fuel cells&lt;/a>); using &lt;em>oxides&lt;/em> makes them more resistant to degradation, but with the tradeoff of reduced performance.&lt;/p>
+&lt;p>The result of our work was published in &lt;em>Electrochimica Acta&lt;/em>. A copy of the paper can be found &lt;a href="https://liem.ca/doc/vidales2019.pdf">here&lt;/a>.&lt;/p></description></item></channel></rss>
