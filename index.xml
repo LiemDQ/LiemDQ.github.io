@@ -56,13 +56,13 @@
 &lt;/span>
 &lt;/h1>&lt;p>&lt;a href="https://github.com/LiemDQ/rucksacc">rucksacc&lt;/a> is a C compiler that aims to be compliant with C11, written in Rust and using the Cranelift code generation backend. It is fairly fully-featured, supporting the preprocessor as well as code optimizations. However, it should still be considered a &amp;ldquo;toy&amp;rdquo; compiler. In particular, robust error handling is one of the trickiest parts of modern compiler frontends, and Rucksacc&amp;rsquo;s implementation is fairly simplistic.&lt;/p>
 &lt;p>Rephrased in technical jargon, rucksacc is a multi-pass compiler frontend that uses a &lt;a href="https://en.wikipedia.org/wiki/Control-flow_graph">control-flow graph&lt;/a> intermediate representation, but defers optimization details like register allocation to Cranelift. The parsing step uses a hand-coded recursive descent parser, but uses &lt;a href="http://journal.stuffwithstuff.com/2011/03/19/pratt-parsers-expression-parsing-made-easy/">Pratt parsing&lt;/a> to evaluate expressions. The &lt;a href="https://en.wikipedia.org/wiki/Lexer_hack">C lexing problem&lt;/a> is solved by deferring identifier classification to the semantic analysis step.&lt;/p>
-&lt;h1 id="shine" >Shine
+&lt;h1 id="shine---wip" >Shine - WIP
 &lt;span>
-&lt;a href="#shine">
+&lt;a href="#shine---wip">
 &lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
 &lt;/a>
 &lt;/span>
-&lt;/h1>&lt;p>Shine is a basic raytracer, written in Rust. It is capable of simulating diffraction, reflection, refraction, focal blur, shadows, and more!&lt;/p>
+&lt;/h1>&lt;p>&lt;a href="https://github.com/LiemDQ/shine">Shine&lt;/a> is a basic raytracer, written in Rust. It is capable of simulating diffraction, reflection, refraction, focal blur, shadows, and more!&lt;/p>
 &lt;p>Shine was written from scratch, with only a single 3rd-party dependency (for random number generation).&lt;/p>
 &lt;h1 id="sounding-rockets" >Sounding rockets
 &lt;span>
