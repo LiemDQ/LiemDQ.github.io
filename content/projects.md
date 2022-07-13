@@ -47,6 +47,8 @@ As an undergraduate student, one of my main extracurricular activities was build
 # Characterization of metal oxide water splitting catalysts
 In undergrad, I worked in an research lab where we produced and characterized cathodes for the hydrogen evolution reaction, a.k.a. water splitting for green hydrogen production. Our motivation was to determine to what extent adding iridium to nickel-molybdenum oxides would improve their electrocatalytic performance. Iridium is a very good water splitting catalyst, but is very expensive; molydenum and nickel are much cheaper but are less effective. 
 
+![Tafel polarization curves](/img/tafel.png "Tafel polarization curves for some of the samples we tested.")
+
 Additionally, nickel electrodes are prone to degradation in acidic media (found in, e.g., [PEM fuel cells](https://en.wikipedia.org/wiki/Proton-exchange_membrane_fuel_cell)); using *oxides* makes them more resistant to degradation, but with the tradeoff of reduced performance. 
 
 The result of our work was published in *Electrochimica Acta*. A copy of the paper can be found [here](/doc/vidales2019.pdf).
