@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = "Liem Dam-Quang"
 theme = "anubis" 
 enableEmoji= true
-
+# disqusShortname = 'liem-ca'
 
 [author]
 name = "Liem Dam-Quang"
