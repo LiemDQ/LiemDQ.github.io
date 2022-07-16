@@ -14,10 +14,10 @@ In line with the recommendations of [this talk](https://www.youtube.com/watch?v=
 ![TLSF data structures](/img/TLSF.png "An overview of the allocation algorithm. It makes sense if you read the paper. I swear.")
 
 # hustl
-[hustl](https://github.com/LiemDQ/vuestl) is a performant, cross-platform STL file viewer written in Rust. It is written to support complex, high-polygon shapes and supports GPU acceleration using WebGPU and compiles to both native binaries and WebAssembly. It has very fast load times thanks to the use of vertex indexing along with extensive parallelism&mdash;it can load a 3 million polygon model (pictured below) in around 270ms on an AMD Ryzen 5 3600X CPU and a GeForce GTX 660. I suppose you could call it *blazingly fast* :rocket: :point_left: :sunglasses: :point_left: 
+[hustl](https://github.com/LiemDQ/hustl) is a performant, cross-platform STL file viewer written in Rust. It is written to support complex, high-polygon shapes and supports GPU acceleration using WebGPU and compiles to both native binaries and WebAssembly. It has very fast load times thanks to the use of vertex indexing along with extensive parallelism&mdash;it can load a 3 million polygon model (pictured below) in around 270ms on an AMD Ryzen 5 3600X CPU and a GeForce GTX 660. I suppose you could call it *blazingly fast* :rocket: :point_left: :sunglasses: :point_left: 
 
 <figure>
-<img src="/img/hustl_ss3.png" width="75%">
+<img src="/img/hustl_ss2.png" width="75%">
 <figcaption>Model obtained from Szimuly Casba on <a href="https://grabcad.com/library/wonder-woman-2">GrabCad</a>.</figcaption>
 </figure>
 
@@ -26,10 +26,11 @@ In line with the recommendations of [this talk](https://www.youtube.com/watch?v=
 
 Rephrased in technical jargon, rucksacc is a multi-pass compiler frontend that uses a [control-flow graph](https://en.wikipedia.org/wiki/Control-flow_graph) intermediate representation, but defers optimization details like register allocation to Cranelift. The parsing step uses a hand-coded recursive descent parser, but uses [Pratt parsing](http://journal.stuffwithstuff.com/2011/03/19/pratt-parsers-expression-parsing-made-easy/) to evaluate expressions. The [C lexing problem](https://en.wikipedia.org/wiki/Lexer_hack) is solved by deferring identifier classification to the semantic analysis step.
 
+<!-- 
 # Shine - WIP
 [Shine](https://github.com/LiemDQ/shine) is a basic raytracer, written in Rust. It is capable of simulating diffraction, reflection, refraction, focal blur, shadows, and more!
 
-Shine was written from scratch, with only a single 3rd-party dependency (for random number generation).
+Shine was written from scratch, with only a single 3rd-party dependency (for random number generation). -->
 
 # Sounding rockets
 As an undergraduate student, one of my main extracurricular activities was building and flying high-powered [sounding rockets](https://en.wikipedia.org/wiki/Sounding_rocket).
@@ -45,7 +46,7 @@ As an undergraduate student, one of my main extracurricular activities was build
 [Ariel](/doc/Ariel_PDR.pdf) was a proposed 300,000 ft apogee liquid engine rocket that would have been, at the time, the first student-researched-and-designed liquid rocket to breach the Karman line. Due to manpower and schedule restrictions, Ariel was shelved after the preliminary design stage, thereby joining a long, illustrious list of aerospace vehicle concepts that get cancelled before ever seeing the light of day. 
 
 # Characterization of metal oxide water splitting catalysts
-In undergrad, I worked in an research lab where we produced and characterized cathodes for the hydrogen evolution reaction, a.k.a. water splitting for green hydrogen production. Our motivation was to determine to what extent adding iridium to nickel-molybdenum oxides would improve their electrocatalytic performance. Iridium is a very good water splitting catalyst, but is very expensive; molydenum and nickel are much cheaper but are less effective. 
+In undergrad, I worked in a [research lab](http://electrochem.mcgill.ca/electrochem.mcgill.ca/index.html) where we produced and characterized cathodes for the hydrogen evolution reaction, a.k.a. water splitting for green hydrogen production. Our motivation was to determine to what extent adding iridium to nickel-molybdenum oxides would improve their electrocatalytic performance. Iridium is a very good water splitting catalyst, but is very expensive; molydenum and nickel are much cheaper but are less effective. 
 
 ![Tafel polarization curves](/img/tafel.png "Tafel polarization curves for some of the samples we tested.")
 
