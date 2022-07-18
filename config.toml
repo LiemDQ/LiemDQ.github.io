@@ -42,7 +42,7 @@ tag = "tags"
 [params]
 	math = true
 	author = "Liem Dam-Quang"
-	description = "Sanity is overrated"
+	description = "Drilling down the rabbit hole"
 	dateFormat = "2006-01-02"
 	style = "auto"
 	rssAsSocialIcon = true
