@@ -102,7 +102,7 @@ We&amp;rsquo;re starting to get somewhere useful, but this is still too abstract
 &lt;p>$$
 SEC = 2RT \left[\frac{c_{feed}}{R_w}\ln\left(\frac{c_{brine}}{c_{feed}}\right) - c_{fresh}\ln\left(\frac{c_{brine}}{c_{fresh}}\right)\right]
 $$
-Where $c$ is the concentration of ions (in mol/m3) in the stream. Note that salt dissociates into &lt;em>two&lt;/em> ions, which is why the equation is multiplied by two. If we further assume that the freshwater feed completely removes salt, then $c_{fresh} = 0$ and so we get the simplified version:
+Where $c$ is the concentration of ions (in mol/m3) in the stream. Note that salt dissociates into &lt;em>two&lt;/em> ions, which is why the equation is multiplied by two. If we further assume that the freshwater stream has perfect rejection (completely removes salt), then $c_{fresh} = 0$ and so we get the simplified version:
 $$
 SEC = \frac{2RTc_{feed}}{R_w}\ln\left(\frac{c_{brine}}{c_{feed}}\right)
 $$
