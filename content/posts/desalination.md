@@ -1,6 +1,6 @@
 ---
 title: "Desalination's endgame"
-draft: true
+draft: false
 date: 2022-08-23
 author: Liem Dam-Quang
 categories: ["engineering", "energy"]
@@ -26,20 +26,27 @@ The starry-eyed enthusiasm didn't last. The high spirits of the age were met wit
 
 It's somewhat of a stroke of irony that 70% of the world's surface is covered in water, yet the IPCC estimates that 80% of the world's population faces serious threats to water security. Like the Greek figure Tantalus, there's a promise of plentiful water that frustratingly forever lies just-so-slightly out of reach. 
 
-Most water used by humans comes from the hydrological cycle. In the warm ocean regions, water evaporates and thanks to atmospheric circulation, moves around the globe. Eventually, it condenses into clouds and falls out of the sky as precipitation. Depending on where it lands, the water can accumulate in ice caps or glaciers, flow back into the oceans through rivers, or be stored in lakes or aquifiers. Although the water eventually makes its way back to the oceans, all these serve as sources of fresh water for humans, plants, and animals. 
+Most water used by humans comes from the [hydrological cycle](https://gpm.nasa.gov/education/water-cycle). In the warm ocean regions, water evaporates and thanks to atmospheric circulation, moves around the globe. Eventually, it condenses into clouds and falls out of the sky as precipitation. Depending on where it lands, the water can accumulate in ice caps or glaciers, flow back into the oceans through rivers, or be stored in lakes or aquifiers. Although the water eventually makes its way back to the oceans, all these serve as sources of fresh water for humans, plants, and animals. 
+
+
+![Water cycle](/img/desalination/water_cycle.png "The water cycle.")
 
 But the availability of these resources is highly location-dependent. There's no guarantee that your land will be pocked by lakes, that rivers will run free, or that the aquifier will provide useful quantities of water. The only ways to increase the available water supply beyond what can be provided from the cycle are through water reuse and desalination. And if you didn't have water to begin with, the first option is not particularly useful. 
 
 Climate change will make all of these issues worse. Droughts will increase in severity and the distribution of rainfall, snowmelt and river flows will shift. Potentially billions of people will experience water shortages, and an overall more precarious water supply situation. 
 
-To address these issues, one technology that we will need to turn to more and more is seawater desalination. Historically, it's been known as an incredibly energy-intensive process, which translates to high costs as well as increased environmental impact. But how much better could it get, and would more R&D get us there?
+To address these issues, one technology that we will need to turn to more and more is seawater desalination. Historically, it's been known as an incredibly energy-intensive process, which translates to high costs as well as increased environmental impact, limiting its potential usefulness. But could that be improved? How much better could it get, and would more R&D get us there?
 
 ## A brief history of desalination
 The largest, most challenging and complex part of a chemical plant is not, as is popularly thought, the reactors that combine chemicals to produce new ones, but rather it is usually the process of splitting a mixture of chemicals into distinct streams of a specified purity. This discipline is known as [separation processes](https://en.wikipedia.org/wiki/Separation_process), and it is the bread and butter of chemical engineering. 
 
 Fortunately, desalination is a relatively easy process. Humans have done it for millenia&mdash;Aristotle noted that "salt water, when it turns into vapour, becomes sweet and the vapour does not form salt water again when it condenses". But it was never feasible on a large scale prior to the Industrial Revolution, due to the high energy requirements, and was subsequently of little interest. 
 
+The idea was revisited during WWII
+
 The first desalination plants, like the one in Freeport, used [multi-stage flash distillation](https://en.wikipedia.org/wiki/Multi-stage_flash_distillation) (MSF) to distill the water. The idea is quite simple: boil the water and collect it, leaving the salt behind. A series of heat exchangers captures the heat from the condensing vapor to boil a subsequent stage of water, minimizing energy waste.
+
+![MSF distillation plant](/img/desalination/nomac_thermal_msf.jpg "MSF distillation plants can be identified by the rows of successive tanks placed in series, which are used to recycle heat from vaporization. Pictured here is the Shoaiba desalination plant in Saudi Arabia.")
 
 They are effective at producing drinkable water, but there's a downside. They are *terribly* energy intensive. No matter how you slice it, boiling water takes a lot of energy, and not all of it can be recuperated. A typical MSF plant achieves a Specific Energy Consumption (SEC) of [23-27 kWh per m3 of water](http://www.iags.org/n0813043.htm). At an electricity price of 20 cents per kWh, that means it would cost $5.00 to produce 1000L of water. But in comparison, the [average price of water in the USA is only $0.40 per 1000L](https://www.akwater.com/story_of_water/html/costs.htm)!
 
@@ -50,7 +57,10 @@ The ultimate success of the industry can be credited to [Sidney Loeb](https://ww
 ## How reverse osmosis works
 Reverse osmosis is achieved by pushing the water across a semipermeable membrane via a pressure gradient. In a typical setup, the water, after having been filtered for large debris like branches, rocks, algae, etc., is fed through a pump and through a series of concentric tubes. 
 
-![Reverse osmosis membrane](/img/desalination/ro_membrane.png "An cutaway of a reverse osmosis membrane. https://www.pnnl.gov/main/publications/external/technical_reports/PNNL-22682.pdf")
+<figure>
+<img src="/img/desalination/ro_membrane.png">
+<figcaption>An cutaway of a reverse osmosis membrane. From <a href="https://www.pnnl.gov/main/publications/external/technical_reports/PNNL-22682.pdf">PNNL Technical Report 22682</a></figcaption>
+</figure>
 
 
 On the face of it, this just seems to be like any other kind of filtering process. *What's the big deal?* I use a "semipermeable membrane" to separate the coffee grounds from my coffee every morning. Why does this have a fancy name attached to it?
@@ -119,6 +129,8 @@ SEC = -\frac{\Pi}{R_w}\ln(1-R_w)
 $$
 For a typical seawater salt concentration of 35 g/L, (with a resulting osmotic pressure of 29.7 bar), and assuming a recovery ratio of 50%, we get a value of 1.1 kWh/m3 of water. This means that no matter the separation technique, it is thermodynamically impossible to desalinate water using less energy than this[^4]. 
 
+![Energy requirements vs. recovery ratios](/img/desalination/ro_sec.png "Specific energy consumption of perfect seawater separation as a function of recovery ratio. Since this is a convex function, there should be some optimal recovery ratio given capital and operating expense models.")
+
 Note that this doesn't work the other way around. Certain separation techniques will be more energy efficient than others, and there's no reason that any specific separation technique would be able to reach the theoretical minimum. It turns out that reverse osmosis in particular [is capable of doing so](https://pubs.acs.org/doi/full/10.1021/acs.jchemed.0c01194).
 
 The other, perhaps unintuitive conclusion is that osmosis is *a natural consequence of the second law of thermodynamics*. Without it, you would theoretically be able to create a net reduction in entropy simply by using a reverse osmosis membrane as a sieve. 
@@ -126,7 +138,11 @@ The other, perhaps unintuitive conclusion is that osmosis is *a natural conseque
 ## Additional limitations
 This analysis applies to a thermodynamically reversible process, but this can't be done in practice. The problem is that as the water gets transferred across the membrane, the concentration of the brine increases, which leads to a corresponding increase in the osmotic pressure. 
 
-In theory, to achieve perfect efficiency we would need to continuously increase the pressure *along the membrane* proportionately to the increase in salt concentration. This is, to say the least, an impractical arrangement. The best we could do, assuming no pressure losses, would be to maintain the pressure constant over the length of the membrane. This means that in order to achieve the recovery ratio we want, the pressure needs to be at least equal to the final osmotic pressure of the brine. If we plot the equilibrium pressure vs. water recovery on a graph, and the area below the graph is "thermodynamic minimum" energy and the area above is the "wasted" energy. 
+In theory, to achieve perfect efficiency we would need to continuously increase the pressure *along the membrane* proportionately to the increase in salt concentration. This is, to say the least, an impractical arrangement. The best we could do, assuming no pressure losses, would be to maintain the pressure constant over the length of the membrane. This means that in order to achieve the recovery ratio we want, the pressure needs to be at least equal to the final osmotic pressure of the brine. 
+
+![RO membrane cross-section](/img/desalination/ro_membrane_cross_section.jpg "As the feed water flows through the membrane, it becomes more and more concentrated in salt as some of the water flows across the membrane. To maintain equilibrium, the pressure would have to continually increase down the membrane, which is impossible!")
+
+If we plot the equilibrium pressure vs. water recovery on a graph, and the area below the graph is "thermodynamic minimum" energy and the area above is the "wasted" energy. 
 
 ![Pressure ratio graph](/img/desalination/ro_wasted_energy.png "Energy efficiency at a recovery ratio of 75%. The blue line is the equilibrium, or 'ideal' pressure required. The area under this curve (in orange) represents the minimum separation energy. The yellow area under the line represents the 'wasted' energy consumption of an ideal single-stage process at constant pressure.")
 
@@ -141,7 +157,10 @@ This means instead of having a single large reverse osmosis unit, we place multi
 ## How well can we do in practice?
 All of this theoretical discussion is interesting, but meaningless unless we're at energy consumption levels where the theory is actually relevant. And if we had remained stuck at 1970s-era membrane technology, this would be the case. But fortunately, modern membranes have come a very long way, with an almost 90% reduction in energy consumption since then. 
 
-![Power consumption trends of membranes](/img/desalination/ro_power_consumption.png "Progress in SEC for reverse osmosis membranes since 1970. This is based on laboratory results, but commercial-grade membranes have followed the same trend. Source: Elimelech and Phillip, 2011.")
+<figure>
+<img src="/img/desalination/ro_power_consumption.png">
+<figcaption>Progress in SEC for reverse osmosis membranes since 1970. This is based on laboratory results, but commercial-grade membranes have followed the same trend. Source: <a href="https://www.science.org/doi/10.1126/science.1200488">Elimelech and Phillip, 2011</a>.</figcaption>
+</figure>
 
 They can now sustainably achieve a thermodynamic efficiency of around 80%, which means they only require about 20% more energy than the thermodynamic limit. A single-stage RO process with 50% recovery requires ~1.6 kWh/m3 of energy in theory, and so the best single-stage RO systems available today consume about 2.0 kWh/m3 in practice. 
 
@@ -151,18 +170,20 @@ And of course, the reverse osmosis step is but one of several needed to obtain d
 
 These systems are *much* more complex than the simple process flow diagram previously shown, with parallelized pipelines, circulation loops, heat exchangers, and energy recovery devices. A typical piping and instrumentation diagram for a reverse osmosis system will look like this:
 
-![SWRO P&ID](/img/desalination/swro.png "Crenger.com")
+![SWRO P&ID](/img/desalination/swro.png "P&ID of a reverse osmosis subsystem. Pictured are the main pumps, booster pumps, energy recovery units, and distribution manifolds. Taken from Crenger.com")
 
 A very common way to improve the energy efficiency is to attempt to reuse as much of the pressure energy from the brine as possible, since it exits as high pressure but no longer has any need to be pressurized. [Pressure exchangers](https://energyrecovery.com/water/px-pressure-exchanger/) are nifty devices that can do this with very high efficiency&mdash;in a sense they fulfill a similar function as a [gas generator turbopump](https://en.wikipedia.org/wiki/Turbopump) in a rocket engine[^5].
 
+<figure>
 {{< youtube IBwkgrwZYNU >}}
-
+<figcaption>This is so cool.</figcaption>
+</figure>
 And this is only a fraction of the plant's functionality! Depending on the quality of the membrane and permeate, sometimes an additional pass is needed, called Brackish Water Reverse Osmosis (BWRO). In addition, the plant needs systems for prefiltering the water and handling all the sludge that gets separated out, a post-treatment system that adds minerals, disinfects and adjusts the pH, and antiscaling systems that flush out minerals from the RO membranes to prevent fouling, and more!
 
 ## Can we improve on this?
-The energy intensity of desalination is one of the primary reasons why it hasn't seen more widespread adoption. Electricity costs account for almost half of the operating costs of a typical desalination facility. 
+The energy intensity of desalination is one of the primary reasons why it hasn't seen more widespread adoption. Electricity costs account for [almost half of the operating costs](https://www.advisian.com/en/global-perspectives/the-cost-of-desalination) of a typical desalination facility. 
 
-![OPEX of RO plant](/img/desalination/opex.png "https://www.advisian.com/en/global-perspectives/the-cost-of-desalination")
+![OPEX of RO plant](/img/desalination/opex.png "Power is a significantly larger contributor to operating costs than any other factor. Reducing costs everywhere else will be a multifaceted, arduous effort. For example, reducing maintenance costs by 50% would only result in an overall 3.5% reduction in opex.")
 
 And unfortunately, that means there's no silver bullet to make desalination cheaper. There are only three ways to improve the energy efficiency of desalination:
 1. Use a membrane that is closer to thermodynamic limits
@@ -171,15 +192,22 @@ And unfortunately, that means there's no silver bullet to make desalination chea
 
 For #1, the thermodynamic limit places a fundamental restriction on its energy efficiency. We're not at a local maximum, we're approaching the *global* maximum. Even if you invented a groundbreaking, "perfect" membrane, it would be at best 20% more energy efficient than the state of the art today. But in practice diminishing returns are likely to apply here as well: individual percentage point improvements to efficiency are going to become harder and harder to chase, while R&D costs will soar. As [this sobering review](https://pubs.rsc.org/en/content/articlehtml/2020/ee/d0ee00341g) by Patel et al. notes, there is a "universal insignificance of novel materials in further enhancing the energy efficiency of desalination". 
 
-#2 is a classical engineering trade study. But the tradeoff becomes increasingly steep at the extremes. At 100% recovery, you would need an infinitely high pressure to achieve the desired flowrate, and at 0% recovery, you would need an infinitely large feed stream to get any kind of freshwater whatsoever. Could R&D conceivably reduce the capital expenditure of building high-flow systems? Sure, but at this point the technological surface area that needs to be covered is massive. Could you improve pipes by adding a coating to reduce friction? Find ways to make the coating less expensive? Find ways to manufacture pumps for cheaper? And all of these
+#2 is a classical engineering trade study. But the tradeoff becomes increasingly steep at the extremes. At 100% recovery, you would need an infinitely high pressure to achieve the desired flowrate, and at 0% recovery, you would need an infinitely large feed stream to get any kind of freshwater whatsoever. Could R&D conceivably reduce the capital expenditure of building high-flow systems? Sure, but at this point the technological surface area that needs to be covered is massive. Could you improve pipes by adding a coating to reduce friction? Find ways to make the coating less expensive? Find ways to manufacture pumps for cheaper? And these will only chip away at the overall costs, since their impact is directly proportional to their percentage of the total cost of the system. These incremental improvements could happen incidentally, but are not worth seeking out specifically.
 
 #3 actually has some potential for improvement. There's a fair bit of unexplored territory&mdash;adding multiple stages is not the only way to accomplish #3. Another approach is called batch reverse osmosis. Instead of continually flowing the water through in a steady-state configuration, you perform the reverse osmosis in big, static vats, where you gradually increase the pressure over time. 
 
-![Batch RO PFD diagram](/img/desalination/batch_pfd.png "Simplified PFD of a batch RO process. The loop is gradually pressurized over time to follow the gradually rising equilibrium pressure.")
+![Batch RO PFD diagram](/img/desalination/batch_pfd.png "Simplified PFD of a batch RO process. The loop pressure is slowly increased over time to follow the gradually rising equilibrium pressure.")
 
 This lets you, in principle, approach the thermodynamic efficiency, although there are other inefficiencies with batch processes that need to be overcome. And as you can imagine, throughput becomes a problem since you have to perform all of the operations sequentially: filling the vat, pressurizing the vat, and emptying the vat. This means you spend only a fraction of your time actually producing freshwater.  
 
-For example, this [press release by Perdue University](https://www.purdue.edu/newsroom/releases/2021/Q2/breakthrough-in-reverse-osmosis-may-lead-to-most-energy-efficient-seawater-desalination-ever.html) describing a new reverse osmosis 'breakthrough' is simply a system that increases the throughput of a batch process by using alternating chambers and a reciprocating piston to ensure water is always being pressed through a membrane. They were able to achieve a SEC of 1.88 kWh/m3, which is a modest improvement over traditional continuous processes. This would probably end up shifting the recovery ratio "sweet spot", so that the plant could use smaller feed streams to produce the same quantity of potable water, resulting in small reductions in capital and operating costs. There's still a long way to go, though. These systems haven't proven that they can scale up well, or that they can operate with the same longevity as continuous systems. And at the end of the day, there's still a limit that can't be overcome, regardless of the approach used.
+For example, this [press release by Perdue University](https://www.purdue.edu/newsroom/releases/2021/Q2/breakthrough-in-reverse-osmosis-may-lead-to-most-energy-efficient-seawater-desalination-ever.html) describing a new reverse osmosis 'breakthrough' is simply a system that increases the throughput of a batch process by using alternating chambers and a reciprocating piston to ensure water is always being pressed through a membrane. They were able to achieve a SEC of 1.88 kWh/m3, which is a modest improvement over traditional continuous processes. 
+
+<figure>
+<img src="/img/desalination/double_batch_ro.png">
+<figcaption>Using a reciprocating piston to minimize downtime and improve system throughput. Source: <a href="https://www.sciencedirect.com/science/article/abs/pii/S0011916421000308">Cordoba et al., 2021.</a></figcaption>
+</figure>
+
+In practice, this would probably end up shifting the recovery ratio "sweet spot", so that the plant could use smaller feed streams to produce the same quantity of potable water, resulting in small reductions in capital and operating costs. There's still a long way to go, though. These systems haven't proven that they can scale up well, or that they can operate with the same longevity as continuous systems. And at the end of the day, there's still a limit that can't be overcome, regardless of the approach used.
 
 ## What does this mean?
 Desalination has reached its endgame. As energy efficient as desalination has become, it's not going to improve much beyond this point. And while the costs have dramatically improved, achieving low costs requires a serious amount of domain expertise and capital, and these requirements are unlikely to ever go away. The dreams of making deserts bloom remain that&mdash;literal pipe dreams.
@@ -209,7 +237,9 @@ Finally, the history of desalination also shows how strongly its success has bee
 
 When confronted with a large, complex, and multifaceted problem without straightforward solutions, I think politicians, at least in North America, have this tendency to punt the issue under the belief that eventually, "innovation" will find a solution. Eventually, someone will invent a cost-effective technology that will solve the problem so effectively that the decision to use it will be a no-brainer. There will be no tough calls about resource allocation, no exposure to potential gaffes or weaknesses exploitable by the opposition, no need to expend valuable political capital. This is the standard response to some of the pressing issues of our day&mdash;calls for "increased investment" and "enabling innovators" and other techno-optimist speak. 
 
-But that playbook won't work here. There is no technological solution coming. The technology we have now is what we have to work with. Now, it is up to us to decide whether we care about the problem or not; whether we wish to expend resources on it. The engineering method can't solve this. And it never will. 
+But that playbook won't work here. There is no technological solution coming. The technology we have now is what we have to work with. Now, it is up to us to decide whether we care about the problem or not and whether we are willing to expend a portion of our very limited resources on it. 
+
+The engineering method won't solve this. And it never will. 
 
 [^1]: This equation can be derived from statistical mechanics using Boltzmann's equation but this is a little beyond the scope of this post. The [linked Wikipedia page](https://en.wikipedia.org/wiki/Entropy_of_mixing#Proof_from_statistical_mechanics) has a simple proof.
 [^2]: As a thought experiment, could we have some kind of molecular door that opens whenever a molecule of ethanol approaches, but closes in response to the presence of a water molecule? This turns out to be a slightly different formulation of [Maxwell's demon](https://en.wikipedia.org/wiki/Maxwell%27s_demon). A lot of ink has been spilled about this, but for all intents and purposes there is no practical system that could be built that could do this. 
