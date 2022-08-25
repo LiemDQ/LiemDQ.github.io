@@ -42,7 +42,7 @@ The largest, most challenging and complex part of a chemical plant is not, as is
 
 Fortunately, desalination is a relatively easy process. Humans have done it for millenia&mdash;Aristotle noted that "salt water, when it turns into vapour, becomes sweet and the vapour does not form salt water again when it condenses". But it was never feasible on a large scale prior to the Industrial Revolution, due to the high energy requirements, and was subsequently of little interest. 
 
-The idea was revisited during WWII
+The idea was revisited during the 1800s with the advent of , mostly in military contexts. Militaries were not as concerned about economic viability as they were with the logistical convenience of being able to produce fresh water for their troops *in-situ*. Research into economic desalination accelerated after WWII, particularly in the United States. In the 1950s, the southern US underwent a severe drought&mdash;the worst in the nation's history&mdash;and there was significant political pressure to find a solution. This is when some began to consider the possibility of large-scale, economic distillation of seawater as a source of water security and a bulwark against the fitful caprices of rain. Comgress passed the Saline Water Conversion Act in 1952, which led to the creation of the Office of Saline Water in 1955 and its eventual merging with the Office of Water Resources Research in 1974.
 
 The first desalination plants, like the one in Freeport, used [multi-stage flash distillation](https://en.wikipedia.org/wiki/Multi-stage_flash_distillation) (MSF) to distill the water. The idea is quite simple: boil the water and collect it, leaving the salt behind. A series of heat exchangers captures the heat from the condensing vapor to boil a subsequent stage of water, minimizing energy waste.
 
@@ -211,6 +211,14 @@ In practice, this would probably end up shifting the recovery ratio "sweet spot"
 
 ## What does this mean?
 Desalination has reached its endgame. As energy efficient as desalination has become, it's not going to improve much beyond this point. And while the costs have dramatically improved, achieving low costs requires a serious amount of domain expertise and capital, and these requirements are unlikely to ever go away. The dreams of making deserts bloom remain that&mdash;literal pipe dreams.
+
+Today, about 1% of the world's drinking water is provided through desalination. This is likely going to rise as water security issues become more pressing. And the amount of desalination plants being built is rising, thanks to the dropping costs. But capacity is growing steady, with no evidence of an "exponential" adoption curve&mdash;if anything, growth is slowing down, as the lowest-hanging fruit get picked.
+
+![RO capacity](/img/desalination/ro_capacity.png "Total historical desalination growth and capacity.")
+
+There's a common idea that droughts are acute, but short periods of no rainfall. While this can be the case, in reality they are often prolonged periods of *reduced* rainfall that can last years. And while a plant can be built, commissioned, and run profitably for a few years over the duration of a long drought, these plants are often planned and designed to operate over timescales of 30+ years. And just like what happened with Freeport, this makes the economic projections of these ventures fraught with uncertainty. Desalination is a long-term solution, and thus the political and economic incentives also need to be long-term ones. 
+
+![Desalination map](/img/desalination/global_water_security.jpg "Desalination plant locations contrasted with global water security risk. While there is some overlap, it's clear to see that these plants are not necessarily being built where they will have the most impact.")
 
 Previously, I used Canada as an example of the "reasonable" energy demands of modern desalination, but it should be pointed out that Canada is one of the [most energy intensive countries per capita](https://en.wikipedia.org/wiki/List_of_countries_by_electricity_consumption) as well as one of the world's most developed economies. Even at these very high efficiencies, poorer countries, particularly those in regions most susceptible to water insecurity, would likely still struggle to provide a sufficient amount of power. 
 
