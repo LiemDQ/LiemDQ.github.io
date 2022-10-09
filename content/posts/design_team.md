@@ -6,7 +6,7 @@ author: Liem Dam-Quang
 categories: ["leadership"]
 ---
 
-During my time in undergrad, I spent a year as a design team captain. Specifically, a co-captain of the McGill Rocket Team (MRT). I also spent several years trying (and failing) to get another design team off the ground.
+During my time in undergrad, I spent a year as a design team captain. Specifically, a co-captain of the [McGill Rocket Team](https://www.mcgillrocketteam.com/) (MRT). I also spent several years trying (and failing) to get another design team off the ground.
 
 I think this was quite possibly one of the most valuable experiences I could have had as a nerdy, young, somewhat immature soon-to-be-professional with questionable social skills and very little idea of what it's like to be on the managerial side of things. It's a big reason why I am the person I am today.
 
