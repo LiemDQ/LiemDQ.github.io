@@ -36,12 +36,12 @@ Here are a few examples:
 - I also found [this](https://www.hyperloopdesign.net/airflow) from a site called HyperloopDesign.net which claims that there is no Kantrowitz limit for Hyperloop pods. However, their explanation of the relevant physics seems very dubious[^5], so I'm not going to consider their argument further. 
 
 ## So what is the Kantrowitz limit, really?
-Without a satisfactory explanation, I decided to read the [original 1945 paper](https://apps.dtic.mil/dtic/tr/fulltext/u2/b184216.pdf)[^1] by Kantrowitz and Donaldson. They were studying the design of diffusers (air intakes) for in supersonic air streams. In short, the Kantrowitz limit has to do with the stability of normal shocks in variable-area ducts when decelerating gases from supersonic to subsonic velocities.
+Without a satisfactory explanation, I decided to read the [original 1945 paper](https://apps.dtic.mil/dtic/tr/fulltext/u2/b184216.pdf)[^1] by Kantrowitz and Donaldson. They were studying the design of diffusers for supersonic air streams (i.e. air intakes for supersonic planes). In short, the Kantrowitz limit has to do with the stability of normal shocks in variable-area ducts when decelerating gases from supersonic to subsonic velocities.
 
 ### Choked flow: an explanation
 Let's do a brief aside and discuss the concept of choked flow, since it is rather critical to understanding the issue at hand. You can skip this section if you are already familiar with the relevant physics. 
 
-Consider a gas flowing through a variable-area duct[^4]. As the area of the duct shrinks, the gas must either speed up or compress (become denser) to maintain the same mass flow rate. The maximum speed that the gas can reach through a reduction in area is the speed of sound. Once this speed is reached, any further reduction in area cannot increase the speed further (and in fact the gas will always reach Mach 1 at the vena contracta, or point with the smallest cross-sectional area, as long as this area is below the crticial area). 
+Consider a gas flowing through a variable-area duct[^4]. As the area of the duct shrinks, the gas must either speed up or compress (become denser) to maintain the same mass flow rate. The maximum speed that the gas can reach through a reduction in area is the speed of sound. Once this speed is reached, any further reduction in area cannot increase the speed further (and in fact the gas will always reach Mach 1 at the vena contracta, or point with the smallest cross-sectional area, as long as this area is below the critical area). 
 
 ![Example of choked flow](/img/kantrowitz/subsonic_choke_no_accel.png "Flow through a converging duct, right at the point where the flow chokes (throat velocity has reached Mach 1).")
 
@@ -71,11 +71,11 @@ Since this process is isentropic and therefore reversible, one would imagine tha
 
 In practice, however, this kind of arrangement is not possible to achieve and maintain. There are two problems. 
 
-The first is that generally, before reaching a supersonic velocity, the system has to first accelerate through a subsonic regime. And a subsonic flow will *also* choke the inlet, but at a much lower mass flow rate. As the system speeds up in the subsonic regime, the gas will either get diverted away from the inlet. The ratio of air diverted away to air entering the inlet is called the *capture ratio*.
+The first is that generally, before reaching a supersonic velocity, the system has to first accelerate through a subsonic regime. And a subsonic flow will *also* choke the inlet, but at a much lower mass flow rate. As the system speeds up in the subsonic regime, some of the gas must get diverted away from the inlet as it cannot "fit" through the throat. The ratio of air diverted away to air entering the inlet is called the *capture ratio*.
 
 ![Choked sonic deceleration](/img/kantrowitz/subsonic-choked.png "Choked inlet at subsonic speeds. Some of the flow that would otherwise have entered the inlet is deflected away due to the pressure buildup.")
 
-As the airspeed increases past the speed of sound, the gas can no longer turn away in time (since it cannot receive information faster than the speed of sound). A bow shock will form in front of the inlet, and the subsonic gas on the other side *can* turn away from the inlet, maintaining mass continuity.
+As the airspeed increases further and turns supersonic, the gas can no longer turn away in time (since it cannot receive information faster than the speed of sound). A bow shock will form in front of the inlet, and the subsonic gas on the other side *can* turn away from the inlet, maintaining mass continuity.
 
 ![Choked supersonic deceleration](/img/kantrowitz/sonic-choked-deceleration.png "Once the system settles at its (supersonic) cruising speed, a bow shock will form in front of the inlet. This leads to massive pressure losses, while the flow inside the duct is subsonic.")
 
@@ -124,9 +124,9 @@ Plotting it out compared the basic isentropic compression case, it's clear that 
 
 The Kantrowitz limit is thus relevant when a supersonic flow needs to be decelerated to subsonic flow, such as is the case in air intake ducts on supersonic planes. It appears repeatedly in the literature mostly in papers dealing with the design of supersonic intake ducts. 
 
-And perhaps instead of "limit", a more appropriate term would be "effect", it's not really a limit at all. It's an aerodynamics phenomenon that results in suboptimal mass flow/pressure recovery, but it's not an outright cap on the performance of a system, like the term "limit" would imply. 
+And perhaps instead of "limit", a more appropriate term would be "effect", as it's not really a limit at all. It's an aerodynamics phenomenon that results in suboptimal mass flow/pressure recovery, but it's not an outright cap on the performance of a system, like the term "limit" would imply. 
 
-To my great surprise, it does seem like everyone has gotten this wrong&mdash;*no one* I found correctly explained this, and usually just parroted the "syringe" explanation from the Musk paper, despite the original paper being readily available online (and rather short: the meat and bones of it is only about 5 pages).
+To my great surprise, it does seem like everyone has gotten this wrong&mdash;*no one* I found correctly explained this, and usually just parroted the "syringe" explanation from the Musk paper, despite the original paper by Kantrowitz being readily available online (and rather short: the meat and bones of it is only about 5 pages).
 
 ## Overcoming the limit
 The Kantrowitz "effect" is undesirable as the pressure losses across the shock lower the mass flow rate through the duct. The total pressure ratio is also known as the *pressure recovery*, with a perfect pressure recovery being a value of 1. 
@@ -197,7 +197,7 @@ Obviously, this depends on how big the pod is relative to the tunnel. But I susp
 
 ### Examples from a study
 
-One good example would be [this paper from MIT by Opgenoord and Caplan](https://arc.aiaa.org/doi/abs/10.2514/1.J057103?journalCode=aiaaj) on Hyperloop pod aerodynamics, where they did some CFD studies on a pod design. It showcases some of the effects I previously mentioned. 
+One good example would be [this 2018 paper by Opgenoord and Caplan](https://arc.aiaa.org/doi/abs/10.2514/1.J057103?journalCode=aiaaj) on Hyperloop pod aerodynamics, where they did some CFD studies on a pod design. It showcases some of the effects I previously mentioned. 
 
 ![Hyperloop CFD](/img/kantrowitz/hyperloop_annotated.png "CFD simulation of the MIT hyperloop pod, obtained from the paper linked above. Annotations are mine.")
 
@@ -205,7 +205,7 @@ Their conclusion is that the drag coefficient does begin to increase significant
 
 ![Hyperloop drag coefficient](/img/kantrowitz/hyperloop_drag_coefficient.png "Drag coefficient of the MIT hyperloop pod. The flow chokes at a pod speed of ~M = 0.675.")
 
-Amusingly enough, a lot of the concept art depicts pods with gigantic compressors in the front.
+Despite this, a lot of the concept art for Hyperloops depicts pods with gigantic compressors in the front.
 ![Hyperloop concept art](/img/kantrowitz/hyperloopstationzeleros.png "The compressor fans really help the cool factor though, and when it comes to multibillion dollar infrastructure projects, isn't that what counts?")
 
 ### What about supersonic Hyperloop pods?
@@ -223,7 +223,7 @@ So why did Musk call it the Kantrowitz limit? To be honest, I'm not sure... One 
 
 ![Kantrowitz error](/img/kantrowitz/kantrowitz_error.png "Percentage error from applying the Kantrowitz limit equations at subsonic velocities.")
 
-But with that said, if there is a distinction to make here, it's a mostly pedantic one. From quickly skimming a few of these papers, I don't think they made this mistake. It seems to be a purely nomenclature thing. Here's a graph from the MIT paper on the blockage ratio vs. free-stream Mach number, reproduced side-by-side with just the area-Mach number equations. Their results are correct&mdash;they just called it something it ain't. 
+But with that said, if there is a distinction to make here, it's a mostly pedantic one. From quickly skimming a few of these papers, I don't think any serious engineers or scientists made this mistake. It seems to be a purely nomenclature thing. Here's a graph from the prior CFD paper on the blockage ratio vs. free-stream Mach number, reproduced side-by-side with just the area-Mach number equations. Their results are correct&mdash;they just called it something it ain't. 
 
 ![Freestream graph comparison](/img/kantrowitz/blockage_to_freestream_comparison.png "Left: Plot from Opgenoord and Caplan. Right: Plot of freestream Mach number using area-Mach relations.")
 

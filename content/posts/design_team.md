@@ -18,7 +18,7 @@ Within my mandate, I technically had a lot of power. We did have a few stakehold
 
 ![A plaque. Ew.](/img/design_team/plaque_mrt.jpg "A plaque I made for sponsors. No, I am not taking commissions right now.")
 
-Finally, it was a position that had a balance of technical as well as non-technical work, and more importantly, it had a long-term, concrete goal that had to be delivered by the end of the year: flying a high-power sounding rocket. There was an objective metric with which to evaluate your performance: placement in a high-power rocketry competition. This made it different from other student leadership positions where success and failure were much more open-ended, and different from other academic projects whose timeframes were at most a single semester. There were also even longer-term projects that would take several years to come to fruition.
+Finally, it was a position that had a balance of technical as well as non-technical work, and more importantly, it had a long-term, concrete goal that had to be delivered by the end of the year: flying a high-power sounding rocket. There was an objective metric with which to evaluate your performance: placement in a high-power rocketry competition. This made it different from other student leadership positions where success and failure were much more open-ended, and different from other academic projects whose timeframes were at most a single semester. There were also even longer-term projects that would take several years to come to fruition, which needed to be juggled alongside the shorter-term concerns.
 
 Despite how educational this experience was for me, due to the nature of the position, only a handful of people will ever get to go through it. Given that, I want to share some of my thoughts about it, a few years after the fact. Some of this is specific to the particularities of running an engineering student design team, and some of it applies more broadly to managing large teams. 
 
@@ -28,7 +28,7 @@ Some of these takeaways will likely come off as sounding melodramatic or self-im
 I'm going to be completely honest. I don't think I was a very good captain. In fact, I think I was a pretty mediocre captain. But if I had to go back in time and do it again, I would've done a lot of things differently. I kept the lights on, the team made progress on the initiatives we set out to work on, and we delivered a product in the end, but at the same time we didn't make as much progress as I would've liked and the product had flaws that we overlooked.
 
 Here are the things that we did well during my tenure:
-- In general, we built an open, friendly and *professional* leadership culture. The team was going through growing pains that year, and we instituted changes to make participation less intimidating to new members. This seems like one 
+- In general, we built an open, friendly and *professional* leadership culture. The team was going through growing pains that year, and we instituted changes to make participation less intimidating to new members. 
 - We greatly improved our relationship with the university administration as well as with relevant external groups.
 - We secured a record amount of funding and sponsorship, and ran a budget surplus which came in handy during the pandemic when funding dried up.
 
@@ -97,7 +97,7 @@ When laid out, it all sounds completely self-evident, but what it subtly shifts 
 ### Your information quality gets worse
 In fiction, one of the most fundamental literary devices is the use of an unreliable narrator. It's one of the first things that's noted about a book, and it makes analysis much more challenging, because now the reader also has to determine truth based on the narrator's supposed personality quirks, biases, mental state, etc. 
 
-In real life, *everyone* is an unreliable narrator, to varying degrees. Everyone has biases, and more specifically lens through which they analyze a problem or situation. And the more layers you have to go through, the worse it gets (at MRT though, it was at most 2 layers, so this wasn't a huge issue). People often bring up the telephone game to illustrate how information gets distorted simply by passing through people. Now imagine when the people relying the message are *not necessarily incentivized to relay accurate information*. 
+In real life, *everyone* is an unreliable narrator, to varying degrees. Everyone has biases, and more specifically lens through which they analyze a problem or situation. And the more layers you have to go through, the worse it gets (at MRT though, it was at most 2 layers, so this wasn't a huge issue). People often bring up the telephone game to illustrate how information gets distorted simply by passing through people. Now imagine when the people relaying the message are *not necessarily incentivized to relay accurate information*. 
 
 People on the front lines have the best idea of what the underlying reality actually looks like, but they are also likely to overestimate the relative importance of the issues that they are facing. Conversely, people who are a step removed from the actual day-to-day operations can be good at pointing out long-term structural issues, but they will have little insight on how to fix them as they won't know which courses of action are realistic. 
 
