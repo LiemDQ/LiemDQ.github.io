@@ -325,7 +325,7 @@ And this is only a fraction of the plant's functionality! Depending on the quali
 &lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
 &lt;/a>
 &lt;/span>
-&lt;/h2>&lt;p>Without a satisfactory explanation, I decided to read the &lt;a href="https://apps.dtic.mil/dtic/tr/fulltext/u2/b184216.pdf">original 1945 paper&lt;/a>&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup> by Kantrowitz and Donaldson. They were studying the design of diffusers (air intakes) for in supersonic air streams. In short, the Kantrowitz limit has to do with the stability of normal shocks in variable-area ducts when decelerating gases from supersonic to subsonic velocities.&lt;/p>
+&lt;/h2>&lt;p>Without a satisfactory explanation, I decided to read the &lt;a href="https://apps.dtic.mil/dtic/tr/fulltext/u2/b184216.pdf">original 1945 paper&lt;/a>&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup> by Kantrowitz and Donaldson. They were studying the design of diffusers for supersonic air streams (i.e. air intakes for supersonic planes). In short, the Kantrowitz limit has to do with the stability of normal shocks in variable-area ducts when decelerating gases from supersonic to subsonic velocities.&lt;/p>
 &lt;h3 id="choked-flow-an-explanation" >Choked flow: an explanation
 &lt;span>
 &lt;a href="#choked-flow-an-explanation">
@@ -333,7 +333,7 @@ And this is only a fraction of the plant's functionality! Depending on the quali
 &lt;/a>
 &lt;/span>
 &lt;/h3>&lt;p>Let&amp;rsquo;s do a brief aside and discuss the concept of choked flow, since it is rather critical to understanding the issue at hand. You can skip this section if you are already familiar with the relevant physics.&lt;/p>
-&lt;p>Consider a gas flowing through a variable-area duct&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. As the area of the duct shrinks, the gas must either speed up or compress (become denser) to maintain the same mass flow rate. The maximum speed that the gas can reach through a reduction in area is the speed of sound. Once this speed is reached, any further reduction in area cannot increase the speed further (and in fact the gas will always reach Mach 1 at the vena contracta, or point with the smallest cross-sectional area, as long as this area is below the crticial area).&lt;/p>
+&lt;p>Consider a gas flowing through a variable-area duct&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. As the area of the duct shrinks, the gas must either speed up or compress (become denser) to maintain the same mass flow rate. The maximum speed that the gas can reach through a reduction in area is the speed of sound. Once this speed is reached, any further reduction in area cannot increase the speed further (and in fact the gas will always reach Mach 1 at the vena contracta, or point with the smallest cross-sectional area, as long as this area is below the critical area).&lt;/p>
 &lt;p>
 &lt;figure>
 &lt;img src="https://liem.ca/img/kantrowitz/subsonic_choke_no_accel.png" alt="Example of choked flow">
@@ -373,14 +373,14 @@ This is also the principle behind rocket engine nozzles: a convergent-divergent 
 &lt;/figure>
 &lt;/p>
 &lt;p>In practice, however, this kind of arrangement is not possible to achieve and maintain. There are two problems.&lt;/p>
-&lt;p>The first is that generally, before reaching a supersonic velocity, the system has to first accelerate through a subsonic regime. And a subsonic flow will &lt;em>also&lt;/em> choke the inlet, but at a much lower mass flow rate. As the system speeds up in the subsonic regime, the gas will either get diverted away from the inlet. The ratio of air diverted away to air entering the inlet is called the &lt;em>capture ratio&lt;/em>.&lt;/p>
+&lt;p>The first is that generally, before reaching a supersonic velocity, the system has to first accelerate through a subsonic regime. And a subsonic flow will &lt;em>also&lt;/em> choke the inlet, but at a much lower mass flow rate. As the system speeds up in the subsonic regime, some of the gas must get diverted away from the inlet as it cannot &amp;ldquo;fit&amp;rdquo; through the throat. The ratio of air diverted away to air entering the inlet is called the &lt;em>capture ratio&lt;/em>.&lt;/p>
 &lt;p>
 &lt;figure>
 &lt;img src="https://liem.ca/img/kantrowitz/subsonic-choked.png" alt="Choked sonic deceleration">
 &lt;figcaption>Choked inlet at subsonic speeds. Some of the flow that would otherwise have entered the inlet is deflected away due to the pressure buildup.&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
-&lt;p>As the airspeed increases past the speed of sound, the gas can no longer turn away in time (since it cannot receive information faster than the speed of sound). A bow shock will form in front of the inlet, and the subsonic gas on the other side &lt;em>can&lt;/em> turn away from the inlet, maintaining mass continuity.&lt;/p>
+&lt;p>As the airspeed increases further and turns supersonic, the gas can no longer turn away in time (since it cannot receive information faster than the speed of sound). A bow shock will form in front of the inlet, and the subsonic gas on the other side &lt;em>can&lt;/em> turn away from the inlet, maintaining mass continuity.&lt;/p>
 &lt;p>
 &lt;figure>
 &lt;img src="https://liem.ca/img/kantrowitz/sonic-choked-deceleration.png" alt="Choked supersonic deceleration">
@@ -446,8 +446,8 @@ $$&lt;/p>
 &lt;/figure>
 &lt;/p>
 &lt;p>The Kantrowitz limit is thus relevant when a supersonic flow needs to be decelerated to subsonic flow, such as is the case in air intake ducts on supersonic planes. It appears repeatedly in the literature mostly in papers dealing with the design of supersonic intake ducts.&lt;/p>
-&lt;p>And perhaps instead of &amp;ldquo;limit&amp;rdquo;, a more appropriate term would be &amp;ldquo;effect&amp;rdquo;, it&amp;rsquo;s not really a limit at all. It&amp;rsquo;s an aerodynamics phenomenon that results in suboptimal mass flow/pressure recovery, but it&amp;rsquo;s not an outright cap on the performance of a system, like the term &amp;ldquo;limit&amp;rdquo; would imply.&lt;/p>
-&lt;p>To my great surprise, it does seem like everyone has gotten this wrong—&lt;em>no one&lt;/em> I found correctly explained this, and usually just parroted the &amp;ldquo;syringe&amp;rdquo; explanation from the Musk paper, despite the original paper being readily available online (and rather short: the meat and bones of it is only about 5 pages).&lt;/p>
+&lt;p>And perhaps instead of &amp;ldquo;limit&amp;rdquo;, a more appropriate term would be &amp;ldquo;effect&amp;rdquo;, as it&amp;rsquo;s not really a limit at all. It&amp;rsquo;s an aerodynamics phenomenon that results in suboptimal mass flow/pressure recovery, but it&amp;rsquo;s not an outright cap on the performance of a system, like the term &amp;ldquo;limit&amp;rdquo; would imply.&lt;/p>
+&lt;p>To my great surprise, it does seem like everyone has gotten this wrong—&lt;em>no one&lt;/em> I found correctly explained this, and usually just parroted the &amp;ldquo;syringe&amp;rdquo; explanation from the Musk paper, despite the original paper by Kantrowitz being readily available online (and rather short: the meat and bones of it is only about 5 pages).&lt;/p>
 &lt;h2 id="overcoming-the-limit" >Overcoming the limit
 &lt;span>
 &lt;a href="#overcoming-the-limit">
@@ -562,7 +562,7 @@ Adding more oblique shocks improves pressure recovery, especially at high Mach n
 &lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
 &lt;/a>
 &lt;/span>
-&lt;/h3>&lt;p>One good example would be &lt;a href="https://arc.aiaa.org/doi/abs/10.2514/1.J057103?journalCode=aiaaj">this paper from MIT by Opgenoord and Caplan&lt;/a> on Hyperloop pod aerodynamics, where they did some CFD studies on a pod design. It showcases some of the effects I previously mentioned.&lt;/p>
+&lt;/h3>&lt;p>One good example would be &lt;a href="https://arc.aiaa.org/doi/abs/10.2514/1.J057103?journalCode=aiaaj">this 2018 paper by Opgenoord and Caplan&lt;/a> on Hyperloop pod aerodynamics, where they did some CFD studies on a pod design. It showcases some of the effects I previously mentioned.&lt;/p>
 &lt;p>
 &lt;figure>
 &lt;img src="https://liem.ca/img/kantrowitz/hyperloop_annotated.png" alt="Hyperloop CFD">
@@ -576,7 +576,7 @@ Adding more oblique shocks improves pressure recovery, especially at high Mach n
 &lt;figcaption>Drag coefficient of the MIT hyperloop pod. The flow chokes at a pod speed of ~M = 0.675.&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
-&lt;p>Amusingly enough, a lot of the concept art depicts pods with gigantic compressors in the front.
+&lt;p>Despite this, a lot of the concept art for Hyperloops depicts pods with gigantic compressors in the front.
 &lt;figure>
 &lt;img src="https://liem.ca/img/kantrowitz/hyperloopstationzeleros.png" alt="Hyperloop concept art">
 &lt;figcaption>The compressor fans really help the cool factor though, and when it comes to multibillion dollar infrastructure projects, isn&amp;#39;t that what counts?&lt;/figcaption>
@@ -611,7 +611,7 @@ Adding more oblique shocks improves pressure recovery, especially at high Mach n
 &lt;figcaption>Percentage error from applying the Kantrowitz limit equations at subsonic velocities.&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
-&lt;p>But with that said, if there is a distinction to make here, it&amp;rsquo;s a mostly pedantic one. From quickly skimming a few of these papers, I don&amp;rsquo;t think they made this mistake. It seems to be a purely nomenclature thing. Here&amp;rsquo;s a graph from the MIT paper on the blockage ratio vs. free-stream Mach number, reproduced side-by-side with just the area-Mach number equations. Their results are correct—they just called it something it ain&amp;rsquo;t.&lt;/p>
+&lt;p>But with that said, if there is a distinction to make here, it&amp;rsquo;s a mostly pedantic one. From quickly skimming a few of these papers, I don&amp;rsquo;t think any serious engineers or scientists made this mistake. It seems to be a purely nomenclature thing. Here&amp;rsquo;s a graph from the prior CFD paper on the blockage ratio vs. free-stream Mach number, reproduced side-by-side with just the area-Mach number equations. Their results are correct—they just called it something it ain&amp;rsquo;t.&lt;/p>
 &lt;p>
 &lt;figure>
 &lt;img src="https://liem.ca/img/kantrowitz/blockage_to_freestream_comparison.png" alt="Freestream graph comparison">
