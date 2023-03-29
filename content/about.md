@@ -3,7 +3,7 @@ title: "About"
 
 ---
 
-I am a self-taught programmer and (not self-taught) engineer. I graduated with a degree in chemical engineering from [McGill University](https://www.mcgill.ca/). Most recently I was an early employee and propulsion engineer for [SpaceRyde](https://www.spaceryde.com/), a small satellite launch startup, but I've been fortunate enough to have had the opportunity to dabble in a lot of fields. 
+I am an engineer at [Prometheus Fuels](https://www.prometheusfuels.com/), where we are building next-generation electrofuel synthesis processes. I graduated with a degree in chemical engineering from [McGill University](https://www.mcgill.ca/). I was an early employee and propulsion engineer for [SpaceRyde](https://www.spaceryde.com/), a small satellite launch startup, but I've been fortunate enough to have had the opportunity to dabble in a lot of fields. 
 
 Some of my technical interests are space exploration, advanced manufacturing, synthetic biology, and energy policy.
 
