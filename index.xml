@@ -478,7 +478,7 @@ And this is only a fraction of the plant's functionality! Depending on the quali
 &lt;/a>
 &lt;/span>
 &lt;/h2>&lt;p>Desalination has reached its endgame. As energy efficient as desalination has become, it&amp;rsquo;s not going to improve much beyond this point. And while the costs have dramatically improved, achieving low costs requires a serious amount of domain expertise and capital, and these requirements are unlikely to ever go away. The dreams of making deserts bloom remain that—literal pipe dreams.&lt;/p>
-&lt;p>Today, about 1% of the world&amp;rsquo;s drinking water is provided through desalination. This is likely going to rise as water security issues become more pressing. And the amount of desalination plants being built is rising, thanks to the dropping costs. But capacity is growing steady, with no evidence of an &amp;ldquo;exponential&amp;rdquo; adoption curve—if anything, growth is slowing down, as the lowest-hanging fruits get picked.&lt;/p>
+&lt;p>Today, about 1% of the world&amp;rsquo;s drinking water is provided through desalination. This is likely going to rise as water security issues become more pressing. And the amount of desalination plants being built is rising, thanks to the dropping costs. But capacity is growing steadily, with no evidence of an &amp;ldquo;exponential&amp;rdquo; adoption curve—if anything, growth is slowing down slightly, as the lowest-hanging fruits get picked.&lt;/p>
 &lt;p>
 &lt;figure>
 &lt;img src="https://liem.ca/img/desalination/ro_capacity.png" alt="RO capacity">
@@ -524,7 +524,7 @@ And this is only a fraction of the plant's functionality! Depending on the quali
 &lt;p>This equation can be derived from statistical mechanics using Boltzmann&amp;rsquo;s equation but this is a little beyond the scope of this post. The &lt;a href="https://en.wikipedia.org/wiki/Entropy_of_mixing#Proof_from_statistical_mechanics">linked Wikipedia page&lt;/a> has a simple proof.&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:4">
-&lt;p>Seawater typically has a temperature of about 30C. While we can technically change the osmotic pressure by cooling the seawater, it would additional complexity and it&amp;rsquo;s not very energy efficient to do so, and even so we would only be able to cool it by ~32 degrees or so before it freezes.&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>Seawater typically has a temperature of about 30C. While we can technically change the osmotic pressure by cooling the seawater, it would add additional complexity and it&amp;rsquo;s not very energy efficient to do so, and even so we would only be able to cool it by ~32 degrees or so before it freezes.&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:5">
 &lt;p>I just noticed that I&amp;rsquo;m making an awful lot of analogies to rockets. It&amp;rsquo;s not intentional, I swear.&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
