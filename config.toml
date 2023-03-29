@@ -21,11 +21,11 @@ name = "Liem Dam-Quang"
 	name = "About"
 	weight = 4
 
-	[[menu.main]]
-	identifier = "projects"
-	url = "/projects/"
-	name = "Projects"
-	weight = 2
+#	[[menu.main]]
+#	identifier = "projects"
+#	url = "/projects/"
+#	name = "Projects"
+#	weight = 2
 
 	[[menu.main]]
 	identifier = "Categories"
