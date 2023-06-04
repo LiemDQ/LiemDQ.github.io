@@ -1,5 +1,5 @@
 ---
-title: "Reflections on my time as a design team captain"
+title: "Reflections on my time as a design team leader"
 draft: false
 date: 2022-10-08
 author: Liem Dam-Quang

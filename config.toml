@@ -59,7 +59,7 @@ url = "https://www.linkedin.com/in/liem-dam-quang/"
 
 [[params.social]]
 id = "email"
-url = "mailto:liem.daq@gmail.com"
+url = "mailto:dq@liem.ca"
 
 [markup.goldmark.renderer]
 unsafe = true
