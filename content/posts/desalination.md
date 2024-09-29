@@ -1,5 +1,5 @@
 ---
-title: "Desalination's endgame"
+title: "Desalination: The Miracle and The Wall"
 draft: false
 date: 2022-08-23
 author: Liem Dam-Quang
