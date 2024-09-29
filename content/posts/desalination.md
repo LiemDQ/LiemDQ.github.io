@@ -20,7 +20,7 @@ The practical implications were overshadowed by the symbolic ones. The 1950s wer
 
 In a sense, this plant represented the ultimate triumph of human ingenuity over the vicissitudes of the weather and climate. Finally, mankind would meet its basic needs in "areas in which Nature was not generous." The deserts would literally bloom, and men and women in dry climates everywhere would be lifted into prosperity.
 
-The starry-eyed enthusiasm didn't last. The high spirits of the age were met with crushing economic—and political—reality. The mercurial nature of weather goes both ways, and a few years later, the rains came back to South Texas. It cost the government $1.25—$14.87 in 2024 dollars—to produce one thousand gallons of water, which it sold to the town of Freeport for $0.30, the going price of naturally-sourced water. Once the funds dedicated to the project ran out, Congress had no inclination to keep producing a now-abundant commodity at a loss. The plant shut down in 1969. The 1970s energy crisis, which [nearly tripled the cost of oil](https://www.macrotrends.net/1369/crude-oil-price-history-chart), subsequently curtailed any incentive to build these fuel-hungry facilities.
+The starry-eyed enthusiasm didn't last. The high spirits of the age were met with crushing economic—and political—reality. The mercurial nature of weather goes both ways, and a few years later, the rains came back to South Texas. It cost the government \\$1.25— \\$14.87 in 2024 dollars—to produce one thousand gallons of water, which it sold to the town of Freeport for $0.30, the going price of naturally-sourced water. Once the funds dedicated to the project ran out, Congress had no inclination to keep producing a now-abundant commodity at a loss. The plant shut down in 1969. The 1970s energy crisis, which [nearly tripled the cost of oil](https://www.macrotrends.net/1369/crude-oil-price-history-chart), subsequently curtailed any incentive to build these fuel-hungry facilities.
 
 ---
 
@@ -123,7 +123,7 @@ Now, imagine if you could only apply one level of torque to wring the towel, ins
 
 The same reasoning applies to RO membranes. To achieve perfect efficiency we would need to continuously increase the pressure _along the membrane flow path_ proportionately to the increase in salt concentration. This is, to say the least, an impractical proposition. The best we could do would be to maintain the pressure _constant_ over the length of the membrane. In order to achieve a desired recovery ratio, the pressure applied to the membrane needs to be at least equal to the _final_ osmotic pressure of the brine.
 
-![RO cutout](/img/desalination/ro_membrane_cross_section.jpg)
+![RO cutout](/img/desalination/ro_membrane_cross_section.jpg "As the seawater flows through the membrane, it becomes more and more concentrated in salt as some of the water flows across the membrane, which makes it progressively harder to extract more water out of it.")
 
 Plotting the pressure vs. water recovery on a graph, we get a relative sense of the “wasted” energy vs. the “required” energy.
 
@@ -145,8 +145,12 @@ Returning to Loeb and Sourirajan, their invention kicked off a flurry of innovat
 
 Putting the prior numbers into context, membranes today can now consistently achieve a thermodynamic efficiency of 80-90%, which means they only require about 25% more energy than what’s physically possible. A single-stage RO process with 50% recovery requires ~1.6 kWh/m3 of energy in theory, and the best single-stage commercial RO systems available today use about 2 kWh/m3. The total energy consumption is now consistently less than 5 kWh/m3 and is approaching 3 kWh/m3 for the most efficient plants.
 
-![Progression of RO power consumption](/img/desalination/ro_power_consumption.jpg "Progress in SEC for reverse osmosis membranes since 1970. The dotted line indicates the theoretical minimum. This is based on laboratory results, but commercial-grade membranes have followed the same trend. Source: Elimelech and Phillip, 2011.")
-
+<figure>
+<img src="/img/desalination/ro_power_consumption.png">
+<figcaption>
+Progress in SEC for reverse osmosis membranes since 1970. The dotted line indicates the theoretical minimum. This is based on laboratory results, but commercial-grade membranes have followed the same trend. Source: <a href="https://www.science.org/doi/10.1126/science.1200488">Elimelech and Phillip, 2011.</a>
+</figcaption>
+</figure>
 
 What does that number actually mean? As an illustrative example, Canada consumed about [4.86 billion cubic meters of potable water in 2019](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3810027101). If all of that water came from desalination, it would represent an additional 9.7 TWh of electricity per year. Canada's annual electricity production is [about 632 TWh](https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/provincial-territorial-energy-profiles/provincial-territorial-energy-profiles-canada.html), so desalination would roughly represent 1.5% of total energy consumption. By comparison, if MSF desalination was used instead, it would require over 120 TWh to supply all of Canada's water, or nearly 20% of all energy consumption just to produce water! Keep in mind that Canada is one of the [most energy intensive countries per capita](https://ourworldindata.org/grapher/per-capita-energy-use) as well as one of the world's most developed economies.
 
@@ -190,7 +194,7 @@ To truly usher in an era of abundance and unlock affordable water and water-base
 Electricity costs account for [a majority of the operating costs](https://www.advisian.com/en/global-perspectives/the-cost-of-desalination) of a typical desalination facility. But the thermodynamic limit places a fundamental restriction on future cost savings. Desalination is just not at a _local_ maximum, it’s approaching the _global_ maximum: energy consumption can only improve by 25% with a _physically perfect_ separation technology. This is _the wall_.
 
 <figure>
-<img src="/img/desalination/opex_compard.jpg">
+<img src="/img/desalination/opex_compared.jpg">
 <figcaption> Electricity is a large contributor to desalination costs, but is far from the only one. Source: <a href="https://web.archive.org/web/20230521135336/https://www.advisian.com/en/global-perspectives/the-cost-of-desalination">Advisian (now Worley Consulting)</a></figcaption>
 </figure>
 
