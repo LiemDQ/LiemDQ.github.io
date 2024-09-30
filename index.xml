@@ -366,7 +366,7 @@ It turns out that for seawater, due to the fundamental thermodynamic and physica
 &lt;p>This relationship is, in a sense, the &amp;ldquo;&lt;a href="https://www.nasa.gov/mission_pages/station/expeditions/expedition30/tryanny.html">rocket equation&lt;/a>&amp;rdquo; of desalination, because there&amp;rsquo;s very few ways to actually improve it. The equilibrium curve is a fundamental property of the fluid, and so there&amp;rsquo;s no technological solution that can change it. There&amp;rsquo;s only two things we can do: change the target recovery ratio, or, just like with rockets, add staging by changing the number of &amp;ldquo;steps&amp;rdquo; we take to reach the final recovery fraction.&lt;/p>
 &lt;p>
 &lt;figure>
-&lt;img src="https://liem.ca/img/desalination/ro_wasted_energy.png" alt="Wasted energy from multistage RO">
+&lt;img src="https://liem.ca/img/desalination/ro_wasted_energy_staged.png" alt="Wasted energy from multistage RO">
 &lt;figcaption>3-stage desalination, with each stage progressively stepping up the pressure and accounting for 25% recovery. This approach is more energy efficient because more pressure is only applied “when it is needed”. &lt;/figcaption>
 &lt;/figure>
 &lt;/p>
