@@ -166,8 +166,6 @@ One common technique to improve the energy efficiency is to reuse as much of the
 {{< youtube IBwkgrwZYNU >}}
 </figure>
 
-And this is only a fraction of the plant's functionality! Depending on the quality of the membrane and permeate, sometimes an additional pass is needed, called Brackish Water Reverse Osmosis (BWRO). In addition, the plant needs systems for prefiltering the water and handling all the sludge that gets separated out, a post-treatment system that adds minerals, disinfects and adjusts the pH, and antiscaling systems that flush out minerals from the RO membranes to prevent fouling.
-
 All of this is only a fraction of the plant's functionality! Depending on the quality of the membrane and permeate, sometimes an additional pass is needed, called [Brackish Water Reverse Osmosis](https://www.membranechemicals.com/water-treatment/brackish-water-reverse-osmosis/) (BWRO). In addition, the plant requires systems for pre-filtering the water and handling all the sludge that gets separated out, a post-treatment system that adds minerals, disinfects and adjusts the pH, anti-scaling systems that flush out mineral deposits from the RO membranes to prevent fouling, and more.
 
 Today, about 1% of the world's drinking water is provided through desalination. This is likely going to rise as water security issues become more pressing, particularly in the Middle-East. The amount of desalination plants being built is rising, thanks to the dropping costs, and has now reached over 100,000,000 cubic meters _per day_.
@@ -232,7 +230,7 @@ For example, with an average levelized cost of electricity from solar at [3 cent
 
 Membranes that are more resistant to scaling and fouling, or are more resilient chemical treatment would also drive costs down—the pretreatment and cleaning systems can account for over [30% of a desalination plant’s capital costs](https://medium.com/@desalter/the-true-cost-of-drinking-water-understanding-the-expenses-of-reverse-osmosis-plants-4254b4f3f166) while membrane replacement and treatment chemicals account for about 25% of the operating costs.
 
-Perhaps most importantly, even unfruitful membrane research isn’t for naught. The findings and techniques of desalination will continue to spill over into adjacent disciplines, such as wastewater treatment, mineral recovery systems, and nanomaterials[7](#footnote-7).
+Perhaps most importantly, even unfruitful membrane research isn’t for naught. The findings and techniques of desalination will continue to spill over into adjacent disciplines, such as wastewater treatment, mineral recovery systems, and nanomaterials[^7].
 
 ---
 
