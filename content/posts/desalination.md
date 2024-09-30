@@ -131,7 +131,7 @@ Plotting the pressure vs. water recovery on a graph, we get a relative sense of 
 
 This relationship is, in a sense, the "[rocket equation](https://www.nasa.gov/mission_pages/station/expeditions/expedition30/tryanny.html)" of desalination, because there's very few ways to actually improve it. The equilibrium curve is a fundamental property of the fluid, and so there's no technological solution that can change it. There's only two things we can do: change the target recovery ratio, or, just like with rockets, add staging by changing the number of "steps" we take to reach the final recovery fraction. 
 
-![Wasted energy from multistage RO](/img/desalination/ro_wasted_energy.png "3-stage desalination, with each stage progressively stepping up the pressure and accounting for 25% recovery. This approach is more energy efficient because more pressure is only applied “when it is needed”. ")
+![Wasted energy from multistage RO](/img/desalination/ro_wasted_energy_staged.png "3-stage desalination, with each stage progressively stepping up the pressure and accounting for 25% recovery. This approach is more energy efficient because more pressure is only applied “when it is needed”. ")
 
 Instead of having a single large reverse osmosis unit, we can place multiple smaller units in series, with pumps in between each unit to boost the pressure to the new equilibrium pressure. However, this increases design complexity and capital and maintenance costs, so there’s no free lunch: at some point the additional expenses will exceed any savings from efficiency gains.
 
