@@ -1,6 +1,6 @@
 baseURL = 'https://liem.ca'
 languageCode = 'en-us'
-title = "Transforming Plenty"
+title = "Striving For Plenty"
 theme = "anubis" 
 enableEmoji= true
 # disqusShortname = 'liem-ca'
@@ -39,7 +39,7 @@ tag = "tags"
 
 [params]
 	math = true
-	subtitle = "Drilling down the rabbit hole"
+	description = "Paradise will be built, not found."
 	dateFormat = "2006-01-02"
 	style = "auto"
 	rssAsSocialIcon = true
