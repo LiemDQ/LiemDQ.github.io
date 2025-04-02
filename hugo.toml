@@ -1,12 +1,10 @@
 baseURL = 'https://liem.ca'
 languageCode = 'en-us'
-title = "Liem Dam-Quang"
+title = "Transforming Plenty"
 theme = "anubis" 
 enableEmoji= true
 # disqusShortname = 'liem-ca'
 
-[author]
-name = "Liem Dam-Quang"
 
 [menu]
 	[[menu.main]]
@@ -27,11 +25,11 @@ name = "Liem Dam-Quang"
 #	name = "Projects"
 #	weight = 2
 
-	[[menu.main]]
-	identifier = "Categories"
-	name = "Categories"
-	url = "/categories/"
-	weight = 3
+	# [[menu.main]]
+	# identifier = "Categories"
+	# name = "Categories"
+	# url = "/categories/"
+	# weight = 3
 
 
 [taxonomies]
@@ -41,25 +39,33 @@ tag = "tags"
 
 [params]
 	math = true
-	author = "Liem Dam-Quang"
-	description = "Drilling down the rabbit hole"
+	subtitle = "Drilling down the rabbit hole"
 	dateFormat = "2006-01-02"
 	style = "auto"
 	rssAsSocialIcon = true
 	copyCodeButton = true
-	readNextPosts = 2
+	readNextPosts = 4
+	readMore = false
 
-[[params.social]]
-id = "github"
-url = "https://github.com/LiemDQ"
+	[params.author]
+		name = "Liem Dam-Quang"
+		email = "dq@liem.ca"
 
-[[params.social]]
-id = "linkedin"
-url = "https://www.linkedin.com/in/liem-dam-quang/"
+	[[params.social]]
+	id = "github"
+	url = "https://github.com/LiemDQ"
 
-[[params.social]]
-id = "email"
-url = "mailto:dq@liem.ca"
+	[[params.social]]
+	id = "linkedin"
+	url = "https://www.linkedin.com/in/liem-dam-quang/"
+
+	[[params.social]]
+	id = "email"
+	url = "mailto:dq@liem.ca"
+
+[caches]
+	[caches.images]
+		dir = ':cacheDir/images'
 
 [markup.goldmark.renderer]
 unsafe = true

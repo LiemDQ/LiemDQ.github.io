@@ -3,10 +3,10 @@ title: "Reflections on my time as a design team leader"
 draft: false
 date: 2022-10-08
 author: Liem Dam-Quang
-categories: ["leadership"]
+# categories: ["leadership"]
 ---
 
-During my time in undergrad, I spent a year as a design team captain. Specifically, a co-captain of the [McGill Rocket Team](https://www.mcgillrocketteam.com/) (MRT). I also spent several years trying (and failing) to get another design team off the ground.
+During my time in undergrad, I spent a year as a design team captain. Specifically, a co-captain of the [McGill Rocket Team](https://www.mcgillrocketteam.com/) (MRT). I also spent several years trying (and failing) to get another design team off the ground[^1].
 
 I think this was quite possibly one of the most valuable experiences I could have had as a nerdy, young, somewhat immature soon-to-be-professional with questionable social skills and very little idea of what it's like to be on the managerial side of things. It's a big reason why I am the person I am today.
 
@@ -209,3 +209,4 @@ People who were on the team during my tenure have graduated or moved on. There's
 
 And beyond the cool projects, the career benefits, the networking events, the personal development and the unique memories, that's why it was all worth it. 
 
+[^1]: They're doing quite well these days, but pretty much none of that comes from my efforts.

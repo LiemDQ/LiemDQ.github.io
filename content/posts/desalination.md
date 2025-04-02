@@ -3,7 +3,7 @@ title: "Desalination: The Miracle and The Wall"
 draft: false
 date: 2024-09-28
 author: Liem Dam-Quang
-categories: ["engineering", "energy"]
+# categories: ["engineering", "energy"]
 ---
 
 On June 21, 1961, in a dusty small town in Texas, about 60 miles south of Houston, President John F. Kennedy stepped up to the podium to make a speech before the assembled throngs of people below. Or rather, his aides did. The ongoing Cuban missile crisis demanded his presence in Washington, so he instead gave the speech through a telephone call. The event, however, was deemed of sufficient importance that Vice-President Lyndon Johnson was in attendance.
@@ -63,7 +63,7 @@ The ultimate success of desalination can be credited to [Sidney Loeb](https://ww
 
 Reverse osmosis is achieved by pushing the water across a semi-permeable membrane using a difference in pressure. In a typical setup, the water, once filtered for large debris like branches, rocks, and algae, is fed through a pump and through a spiral-wound tube. The walls of this tube are made of a membrane with tiny pores that allow water molecules to pass through but block larger salt molecules.
 
-![Reverse osmosis membrane](/img/desalination/ro_membrane.png "An cutaway of a reverse osmosis membrane. Source: PNNL.")
+![Reverse osmosis membrane](/img/desalination/ro_membrane.png "A cutaway of a reverse osmosis membrane. Source: PNNL.")
 
 At a first glance, this just seems to be like any other kind of filtering process. What's the big deal? I use a "semi-permeable membrane" to separate the coffee grounds from my morning brew every day. Why does this have a fancy name attached to it?
 
@@ -111,7 +111,7 @@ It turns out that for seawater, due to the fundamental thermodynamic and physica
 
 For a typical seawater salt concentration of 35 g/L, and assuming a recovery ratio of 50%, we get a SEC of ~1.1 kWh/m3 of water. No matter the separation technique, it is _thermodynamically_ _impossible_ to desalinate seawater using less energy[^6].
 
-![SEC graph vs recovery ratio](/img/desalination/ro_sec.png "Specific energy consumption of perfect seawater separation depends on the recovery ratio")
+![SEC graph vs recovery ratio](/img/desalination/ro_sec.png "Specific energy consumption of perfect seawater separation depends on the recovery ratio.")
 
 As the water gets transferred across the membrane, the brine side becomes more concentrated with salt, which leads to a corresponding increase in the osmotic pressure. This leads to a sharp increase in the SEC above a recovery ratio of ~0.8.
 

@@ -3,7 +3,7 @@ title: "There is no Kantrowitz limit"
 draft: false
 date: 2022-07-16
 author: Liem Dam-Quang
-categories: ["engineering"]
+# categories: ["engineering"]
 ---
 
 Anyone who's somewhat interested in mass transportation systems is bound to have looked into the Hyperloop concept at one point or another. One of the things that came up during my research was something called the 'Kantrowitz limit'. 
