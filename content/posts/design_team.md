@@ -6,7 +6,7 @@ author: Liem Dam-Quang
 # categories: ["leadership"]
 ---
 
-During my time in undergrad, I spent a year as a design team captain. Specifically, a co-captain of the [McGill Rocket Team](https://www.mcgillrocketteam.com/) (MRT). I also spent several years trying (and failing) to get another design team off the ground[^1].
+During my time in undergrad, I spent a year as a design team captain. Specifically, running a team [that builds and flies rockets](https://www.mcgillrocketteam.com/). I also spent several years trying (and failing) to get another design team off the ground[^1].
 
 I think this was quite possibly one of the most valuable experiences I could have had as a nerdy, young, somewhat immature soon-to-be-professional with questionable social skills and very little idea of what it's like to be on the managerial side of things. It's a big reason why I am the person I am today.
 
@@ -69,7 +69,7 @@ Most of them are not a big deal. Just a small heap of smouldering cinders that c
 
 ![SAC](/img/design_team/SAC.jpg "MRT at Spaceport America. It's a long road to get down there, but the journey is worth it.")
 
-Because of this, there is a sense of importance in everything you do. There is no such thing as a "typical month", let alone a "typical year". Each cycle brings with it new and unique challenges that each new generation of leadership has to tackle. All this running around leaves surprisingly little bandwidth for long-term thinking, and leaves you prone to falling into [mimetic traps](https://www.briantimar.com/notes/mimetic/mimetic/).
+Because of this, there is a sense of importance in everything you do. There is no such thing as a "typical month", let alone a "typical year". Each cycle brings with it new and unique challenges that each new generation of leadership has to tackle. All this running around leaves surprisingly little bandwidth for long-term thinking, and leaves you prone to falling into [mimetic traps](https://www.briantimar.com/notes/mimetic/mimetic/)[^2].
 
 As a warning: the constant urgency can make you feel like your actions have a disproportionate impact on the team, even when this isn't the case. Things generally won't fall apart overnight if you decided to take a day or even a week off. Make sure to keep a sense of perspective and that you're not inflating your own importance, and set aside some time for yourself. 
 
@@ -210,3 +210,4 @@ People who were on the team during my tenure have graduated or moved on. There's
 And beyond the cool projects, the career benefits, the networking events, the personal development and the unique memories, that's why it was all worth it. 
 
 [^1]: They're doing quite well these days, but pretty much none of that comes from my efforts.
+[^2]: The biggest example of this are sponsorship requests. Student engineering teams are perpetually strapped for cash, and funding is a constant struggle. You're always looking for opportunities to get free parts and materials, or even a buck or two. At one point I was trying to find sponsors for candle wax. Then I realized that I had only a few months left on my tenure and that *we were already running a budget surplus*. So I eased off. A little.
