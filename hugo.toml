@@ -39,11 +39,12 @@ tag = "tags"
 
 [params]
 	math = true
-	description = "Paradise will be built, not found."
+	description = "Paradise will be built, not discovered."
 	dateFormat = "2006-01-02"
 	style = "auto"
 	rssAsSocialIcon = true
 	copyCodeButton = true
+	enableSideNotes = true
 	readNextPosts = 4
 	readMore = false
 
