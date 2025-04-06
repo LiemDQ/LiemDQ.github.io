@@ -3,7 +3,7 @@ title: "About"
 
 ---
 
-I work at [Prometheus Fuels](https://www.prometheusfuels.com/), developing an electrochemical process for cost-effective carbon-neutral liquid fuels from the air. I've been fortunate enough to have had the opportunity to dabble in many fields. Previously, I was an early employee and propulsion engineer for [SpaceRyde](https://spaceryde.webflow.io/), a (sadly now defunct) rocket startup.
+I work at [Prometheus Fuels](https://www.prometheusfuels.com/), developing an electrochemical process for producing cost-effective carbon-neutral liquid fuels from the air. I've been fortunate enough to have had the opportunity to dabble in many fields. Previously, I was an early employee and propulsion engineer for [SpaceRyde](https://spaceryde.webflow.io/), a (sadly now defunct) rocket startup.
 
 
 ## What is this website? 
