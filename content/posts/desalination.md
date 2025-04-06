@@ -58,7 +58,7 @@ This approach is effective at producing drinkable water in large quantities, but
 
 Paying over 10x the average price for your water is quite literally a tough sell. In many cases, it’s cheaper to simply ship the water in from elsewhere. It's unsurprising, then, that MSF desalination never saw the widespread adoption that Kennedy and Johnson would have liked. And in the 1970s, funding for desalination dried up—pun unintended[^2]. Desalination was a niche technology of last resort, only used in locations that had access to abundant energy but for whatever reason had no other options for sourcing water.
 
-# Enter reverse osmosis 
+## Enter reverse osmosis 
 The ultimate success of desalination can be credited to [Sidney Loeb](https://www.jpost.com/health-and-sci-tech/science-and-environment/in-appreciation-sidney-loeb-desalination-pioneer-dies-at-91) and [Srinivasa Sourirajan](https://smartwatermagazine.com/news/smart-water-magazine/dr-srinivasa-sourirajan-father-reverse-osmosis-passed-away), who co-invented the [first practical reverse-osmosis membrane](https://patents.google.com/patent/US3133132), a much more energy efficient technology. While the concept of a salt-removing filter was not novel, their membrane was the first that was relatively inexpensive, durable, and had a sufficiently high water throughput to be economically viable. The trick was using a two-layer approach: a thin, tightly-woven layer on top provided the salt filtering capability, while a thicker but more porous layer on the bottom provided the strength needed to withstand the required pressures. Today, practically all commercial reverse osmosis membranes still employ the same concept.
 
 Reverse osmosis is achieved by pushing the water across a semi-permeable membrane using a difference in pressure. In a typical setup, the water, once filtered for large debris like branches, rocks, and algae, is fed through a pump and through a spiral-wound tube. The walls of this tube are made of a membrane with tiny pores that allow water molecules to pass through but block larger salt molecules.
@@ -127,7 +127,7 @@ Plotting the pressure vs. water recovery on a graph, we get a relative sense of 
 
 ![Wasted energy from RO](/img/desalination/ro_wasted_energy.png "Energy efficiency at a recovery ratio of 75%. The blue line is the equilibrium, or 'ideal' pressure required (normalized to 1.0 at 0% recovery). The area under this curve (in orange) represents the minimum separation energy. The yellow area under the line represents the 'wasted' energy consumption of an ideal single-stage process at constant pressure.")
 
-This relationship is, in a sense, the "[rocket equation](https://www.nasa.gov/mission_pages/station/expeditions/expedition30/tryanny.html)" of desalination, because there's very few ways to actually improve it. The equilibrium curve is a fundamental property of the fluid, and so there's no technological solution that can change it. There's only two things we can do: change the target recovery ratio, or, just like with rockets, add staging by changing the number of "steps" we take to reach the final recovery fraction. 
+This relationship is, in a sense, the "[rocket equation](https://www.nasa.gov/mission_pages/station/expeditions/expedition30/tryanny.html)" of desalination, because there's very few ways to actually improve it. The equilibrium curve is a fundamental property of the fluid, and so there's no technological solution that can change it. There's only two things we can do: change the target recovery ratio, or, just like with rockets, [add staging](https://en.wikipedia.org/wiki/Multistage_rocket) by changing the number of "steps" we take to reach the final recovery fraction. 
 
 ![Wasted energy from multistage RO](/img/desalination/ro_wasted_energy_staged.png "3-stage desalination, with each stage progressively stepping up the pressure and accounting for 25% recovery. This approach is more energy efficient because more pressure is only applied “when it is needed”. ")
 
@@ -135,7 +135,7 @@ Instead of having a single large reverse osmosis unit, we can place multiple sma
 
 ![Staged RO diagram](/img/desalination/ro_staged.jpg "Example of a two-stage RO system. Source: DOE")
 
-# The miracle…
+## The miracle…
 
 The energy intensity of desalination has been one of the primary reasons why it hasn't seen more widespread adoption. (Other issues such as the environmental consequences of brine discharge also dampen the prospects for widespread deployment but are not quite as salient.)
 
@@ -256,7 +256,7 @@ Solutions to water insecurity exist. Desalination can poke at the boundaries and
 The engineering method won't solve this for us. And it never will.
 
 [^1]: Directly using seawater as a coolant is possible, but it is not a trivial affair, and brings with it a whole host of other challenges.
-[^2]: Actually, that’s not true. This one was utterly and deliberately planned. What are you going to do about it, bud?
+[^2]: Actually, that’s not true.
 [^3]: For example, what do we mean by two mixture components being "different"? This is actually an incredibly subtle argument with implications on the definition of entropy, and is known as [the Gibbs paradox](https://www.damtp.cam.ac.uk/user/tong/statphys/jaynes.pdf).
 [^4]: The actual physical mechanism of osmosis is also surprisingly obscure and [difficult to put into simple physical terms.](https://www.kidney-international.org/article/S0085-2538(15)32657-0/pdf)
 [^5]: A full derivation of this result, starting from the Gibbs free energy of mixing, can be found in [Wang et al., 2020.](https://pubs.acs.org/doi/full/10.1021/acs.jchemed.0c01194)
