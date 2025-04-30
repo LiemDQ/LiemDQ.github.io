@@ -278,7 +278,7 @@ Separation techniques by relative energy consumption.  (<a href="https://www1.ee
 </figcaption>
 </figure>
 
-This isn't a big deal when there's a local supply of use-it-or-lose-it heat[^16], but when lunch is no longer free, these inefficiencies really begin to bite. 
+This isn't a big deal when there's a local supply of use-it-or-lose-it heat[^16], but when lunch is no longer free, these inefficiencies really begin to bite. To improve on these numbers, new approaches will need to rely on different separation mechanisms that don't involve vaporizing liquids.  
 
 ### Dynamic operation will become more common
 The electrification of industry alongside a deepening penetration of renewable energy on the grid will present new challenges and new opportunities. As intermittent energy sources like wind and solar become more prominent, [dispatchability](https://www.pcienergysolutions.com/2024/05/01/understanding-the-differences-between-non-dispatchable-and-dispatchable-generation/) will command a premium on the supply side, and equally on the demand side. 
@@ -372,7 +372,7 @@ New separations won't just replace distillation, they'll make new processes and 
 
 For example, the commercial success of desalination with reverse osmosis membranes are spilling over into other disciplines, even if the former is [beginning to stagnate](https://liem.ca/posts/desalination/). The process technology is now well-understood and there now exists significant engineering expertise on how to design these systems. New technologies, such as [Via Separations and their graphene oxide membranes](https://viaseparations.com/), are now able to piggyback off of this knowledge to rapidly commercialize new applications[^17].
 
-And as new, better, more efficient, more specific separations are commercialized, new paradigms in process design will arise, enabling us to produce more, use more, prosper more—while simultaneously allowing us to reduce our impact on the environment. 
+And as new, better, more efficient, more specific separations are commercialized, new paradigms in process design will arise, enabling us to produce more, use more, prosper more—while simultaneously allowing us to reduce our impact on the environment. Of course, none of this will be easy. There are decades worth of inertia to overcome, and success is not guaranteed.
 
 <br/>
 <br/>
@@ -390,7 +390,7 @@ Well, we're pretty good at boiling stuff.
 But I think we can get good at some other things, too. 
 
 
-[^1]: There sadly still have been some tragic incidents, one of the worst being [the 2005 Texas City BP refinery explosion](https://youtu.be/goSEyGNfiPM?si=hmJuB-PwRAOuMhti) which killed 15 workers and injured another 180.
+[^1]: There sadly still have been some tragic incidents, one of the worst being [the 2005 Texas City BP refinery explosion](https://www.youtube.com/watch?v=goSEyGNfiPM) which killed 15 workers and injured another 180.
 
 [^2]: Other design tips include "Do the easy separations first" and "Do not recombine separated streams."
 
