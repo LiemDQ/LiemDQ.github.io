@@ -1,6 +1,6 @@
 ---
 title: "The Tower's Long Shadow"
-draft: true
+draft: false
 date: 2025-04-27
 author: Liem-Dam-Quang
 ---
