@@ -304,36 +304,40 @@ These technologies will be significantly more energy-efficient and will be able 
 There's no shortage of promising ideas. Redox-active adsorbents for [ion separation](https://par.nsf.gov/servlets/purl/10176352). Carbon nanotube membranes [for precise molecular filtration](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/admi.202101260). Bipolar membrane electrodialysis for [organic acid regeneration (and many other applications)](https://www.sciencedirect.com/science/article/pii/S0376738820311157#sec5). Ionic liquids for [extracting biological compounds](https://pubs.acs.org/doi/full/10.1021/acs.chemrev.6b00550). 
 
 
-But [progress has been slow](https://www.thechemicalengineer.com/features/distillation-distilled-is-industry-adapting-fast-enough/). 
+But [progress has been slow](https://www.thechemicalengineer.com/features/distillation-distilled-is-industry-adapting-fast-enough/). Innovation in the physical world of atoms is extremely difficult in the best of cases. But for chemical process technologies, [the innovation valley of death](https://www.ideatovalue.com/inno/nickskillicorn/2021/05/the-innovation-valley-of-death/) becomes a canyon. A perfect combination of economic and technical factors conspires to make it nearly impossible. 
 
-<br/> 
+The capital requirements for chemical plants are immense; even small projects can require hundreds of millions of dollars in investment. Furthermore, the cost structure is heavily front-loaded: it's estimated that 80% of a chemical plant's production cost is determined by the time the preliminary design is done. A move-fast-and-break-things approach, as is frequently used in the software industry, [is simply not a viable strategy](https://www.ipaglobal.com/news/article/the-challenge-of-innovation-for-new-ventures-and-startups/). 
 
-Innovation in the physical world of atoms is extremely difficult in the best of cases. But for chemical process technologies, [the innovation valley of death](https://www.ideatovalue.com/inno/nickskillicorn/2021/05/the-innovation-valley-of-death/) becomes a canyon. A perfect combination of economic and technical factors conspires to make it nearly impossible. 
-
-The capital requirements for chemical plants are immense; even small projects can require hundreds of millions of dollars in investment. And the cost structure is heavily front-loaded: it's estimated that 80% of a chemical plant's production cost is determined by the time the preliminary design is done. A move-fast-and-break-things approach, as is frequently used in the software industry, [is simply not a viable strategy](https://www.ipaglobal.com/news/article/the-challenge-of-innovation-for-new-ventures-and-startups/). 
-
-This makes the people who fund these projects extremely risk-averse, particularly towards technological risk. These plants are expected to last decades, and even when the technology is mature, the inevitable risk of budget and schedule overruns as well as shifts in the macroeconomic environment can quickly financially sink a project. Why would you want to run the risk having the plant *not even work at all?*
+This makes the people who fund these projects extremely risk-averse, particularly towards technological risk. These plants are expected to last decades, and even when the technology is mature, the inevitable risk of budget and schedule overruns as well as shifts in the macroeconomic environment can quickly financially sink a project. Why would you want to run the risk of the plant *not even working at all?*
 
 Along a similar vein, most process equipment is expected to last decades, and problems may only manifest years after commencement of operations—which can itself be many years after the project is greenlighted. The result is an anemic feedback loop for designs, making iterative improvements and learning-by-doing challenging. 
 
+---
+
+<br/>
 
 There is another factor worth discussing, and it's the most insidious one of them all. 
 
---
+<br/>
+
 In 2019, the National Academies of Sciences, Engineering, and Medicine (NASEM) published [*A Research Agenda for Transforming Separation Science*](https://www.nationalacademies.org/our-work/a-research-agenda-for-a-new-era-in-separations-science), a "Consensus Study Report" containing detailed recommendations regarding future research directions and educational curricula in separation science. These peer-reviewed reports are reflective of the expert consensus around a topic, and while NASEM isn't a policymaking body, its reputation means that its stances hold considerable weight.
 
-What was surprising about this report was the emphasis on the need for advances in *fundamental theory* while simultaneously lamenting the perception of the field among researchers as outdated and uninteresting. 
+What was surprising about this particular one was the emphasis on needing advances in *fundamental theory* while simultaneously lamenting the perception of the field among researchers as outdated and uninteresting. 
 
 On the need for better theories and models:
 
-> The vision […] of unification of the general principles of separation science has not been achieved. Chemists and chemical engineers engaging in separation science and technology do not even speak a common language.
-
-> Accurate models for predicting binary and multicomponent behavior from data on single components […] do not exist for most types of separation materials. 
+> The vision […] of unification of the general principles of separation science has not been achieved. Chemists and chemical engineers engaging in separation science and technology *do not even speak a common language.*
+> 
+> [...]
+> 
+> Accurate models for predicting binary and multicomponent behavior from data on single components […] *do not exist* for most types of separation materials. 
 
 And on the perception of the field:
 
 > … numbers of faculty members readily identifiable as separation researchers have decreased by 40% in the top chemistry departments and by 30% in the top chemical engineering departments since [1987].
-
+>
+> [...]
+> 
 > Graduate students view separations as old-fashioned. None of the top 20 chemistry or chemical-engineering programs list “separations” as one of their topical research areas. 
 
 These are startling admissions. How can a field still have fundamental theories left to be discovered, yet at the same time be derided as boring and unfruitful for research?
@@ -342,7 +346,11 @@ While we'll never truly pin down the root causes of this, we can indulge in some
 
 There is, however, one notable exception.
 
-An abundance of ready-to-use models for predicting [vapor-liquid equilibria](https://en.wikipedia.org/wiki/Vapor%E2%80%93liquid_equilibrium). 
+<br/>
+
+An abundance of ready-to-use models for predicting [vapor-liquid equilibria](https://en.wikipedia.org/wiki/Vapor%E2%80%93liquid_equilibrium), and a long history of theory development in this subfield. 
+
+<br/>
 
 ---
 

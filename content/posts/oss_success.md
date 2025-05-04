@@ -17,9 +17,9 @@ Cue the obligatory <a href="https://xkcd.com/2347/">XKCD reference</a>.
 
 Clearly, this is very valuable to the world. How valuable exactly? It's hard to say for sure, but a 2024 [Harvard Business School study](https://www.hbs.edu/ris/Publication%20Files/24-038_51f8444f-502c-4139-8bf2-56eb4b65c58a.pdf) estimated the economic value of open-source software to be between 4 and 8.8 trillion dollars.
 
-Not only does open-source software enjoy widespread adoption, it often benefits from explicit support from tech companies, ranging from them allowing employees to make contributions to direct financial backing. That's a dynamic that's unusual to see in the corporate world. Sure, many organizations have philanthropic programs, but these companies are donating to projects that could make their own (commercial) product offerings less attractive, or even benefit their competitors! Imagine if ExxonMobil was openly and proudly to an organization developing cheap solar panels, and *giving away the designs for free*.
+Not only does open-source software enjoy widespread adoption, it often benefits from explicit support from tech companies, ranging from them allowing employees to make contributions to direct financial backing. That's a dynamic that's unusual to see in the corporate world. Sure, many organizations have philanthropic programs, but these companies are donating to projects that could make their own (commercial) product offerings less attractive, or even benefit their competitors! Imagine if ExxonMobil was openly and proudly supporting an organization developing cheap solar panels, and *giving away the designs for free*.
 
-Why does this happen? My mental model for this is that open-source software projects are, economically speaking, [public goods](https://en.wikipedia.org/wiki/Public_good). When do open-source succeed, and when does it make sense for private organizations to invest resources into them?
+When does open-source succeed, and when does it make sense for private organizations to invest resources into them? My mental model for this is that open-source software projects are, economically speaking, [public goods](https://en.wikipedia.org/wiki/Public_good). 
 
 While there are many reasons for making a project open-source and many reasons they succeed (or fail), viewing it from the lens of economic incentives suggests that these projects are more likely to see adoption and receive contributions when:
 
@@ -41,7 +41,7 @@ High-end optimizing compilers are some of the most technically sophisticated pie
 4. Deep, "in-the-trenches" knowledge of what "structures" are likely to appear in practical programs, to generate good heuristics on what optimization techniques to use.
 5. Support for a broad range of architectures, platforms, and hardware, each of which essentially represents a distinct product offering. 
 
-There's a massive financial incentive for developing better optimizing compilers. Improving the average optimized performance by a percentage point can translate to *billions of dollars* in savings since every program written in the compiler's target language can benefit from it.
+There's a massive financial incentive for developing better optimizing compilers. Improving the average optimized performance by *a single percentage point* can translate to *billions of dollars* in savings since every program written in the compiler's target language can benefit from it.
   
 Nonetheless, the two C++ compilers at the forefront in terms of feature set and performance are [GCC](https://gcc.gnu.org/) and [Clang/LLVM](https://llvm.org/)[^3]. Both of these are open-source projects and are completely free to use. In third place is Microsoft's [MSVC](https://visualstudio.microsoft.com/vs/features/cplusplus/), a commercial and proprietary compiler, and then everything else is a distant last place. GCC and Clang have by far [the most extensive feature sets](https://en.cppreference.com/w/cpp/compiler_support), and most performance benchmarks these days don't even bother comparing anything besides GCC and Clang (and occasionally MSVC on Windows) because nothing else even comes close[^5].  
 
@@ -71,7 +71,7 @@ MIP solvers are used to solve complex real-world resource allocation and cost op
 
 At a first glance, the situation seems very similar to compilers:
 * Very specialized PhD-level mathematical knowledge is needed to advance the state-of-the-art.
-* Many optimization problems are computationally intractable with naïve algorithms, so good heuristics are needed to obtain acceptable solutions in many cases.
+* A large class of optimization problems are computationally intractable with naïve algorithms, so good heuristics are needed to obtain acceptable solutions in many cases.
 * Many possible use cases, requiring support for multiple platforms, languages, interfaces, etc.
 * Even small incremental improvements to these solvers could result in millions or even billions of dollars in economic savings. 
 
@@ -79,7 +79,7 @@ In contrast to the situation with compilers, the leader in this space is general
 
 ![Solver benchmarks](/img/oss_success/solver.png "Solve times of commercial solvers vs. open-source ones.")
 
-Mathematical optimizers isn't used quite as ubiquitously as a C++ compiler, but they're still ubiquitous in the modern economy. So why did open-source never take off here? [One knowledgeable StackExchange answer](https://or.stackexchange.com/questions/5150/what-are-the-advantages-of-commercial-solvers-like-gurobi-or-xpress-over-open-so) lists the following reasons: 
+Mathematical optimizers isn't used quite as ubiquitously as C++ compilers, but they're still commonplace in the modern economy. So why did open-source never take off here? [One knowledgeable StackExchange answer](https://or.stackexchange.com/questions/5150/what-are-the-advantages-of-commercial-solvers-like-gurobi-or-xpress-over-open-so) lists the following reasons: 
 
 * Developing these solvers requires very specialized knowledge, and there just aren't enough open-source developers with the necessary skillset. 
 * Many optimization problems are computationally intractable in the general case, so good heuristics are needed to generate a solution. Working with customers creates institutional knowledge about heuristics are effective for real-world problems. 
@@ -130,7 +130,7 @@ The potential upside here is enormous. There could be many more cases like MIP s
 [^1]: What's that? You want to code your website in TypeScript instead of JavaScript? That's only in the 'Plus' plan, sorry. And did you want caching on your server, too?
 [^3]: GCC was the top dog for a long time, but in recent years Clang has pretty much tied it and is [even pulling ahead for certain workloads](https://www.phoronix.com/review/gcc-clang-eoy2023/8).
 [^2]: In this link, Gurobi, MindOpt, OptVerse, COPT and MOSEK are commercial solvers.
-[^4]: You might be wondering why we're comparing solve time here as opposed to how good the solutions are. Even if a solver is slower, do we really care if it eventually finds the same answer? Unfortunately, MIP problems are [NP-complete](https://en.wikipedia.org/wiki/NP-completeness), so the computational complexity scales exponentially with the size of the problem. That makes solver speed very important, because it can mean the difference between a problem being feasible or not. Otherwise, modelers have to make simplifying assumptions, such as approximating a nonlinear function as a [convex function](https://en.wikipedia.org/wiki/Convex_optimization), which can significantly improve the solution time at the expensive of less aggressive optimization.
+[^4]: You might be wondering why we're comparing solve time here as opposed to how good the solutions are. Even if a solver is slower, do we really care if it eventually finds the same answer? Unfortunately, MIP problems are [NP-complete](https://en.wikipedia.org/wiki/NP-completeness), so the computational complexity scales exponentially with the size of the problem. That makes solver speed very important, because it can mean the difference between a problem being feasible or not. Otherwise, modelers have to make simplifying assumptions, such as approximating a nonlinear function as a [convex function](https://en.wikipedia.org/wiki/Convex_optimization), which can significantly improve the solution time at the expense of less aggressive optimization.
 [^5]: There's not much improvement across different compiler versions here, but the pgbench benchmark likely already benefits from heavy optimization, since database operations are extremely common. 
-[^6]: There's a good case to be made for 'yes'. In the past 20 years, there's been a [50x speed-up in MILP solvers from algorithmic improvements alone](https://www.sciencedirect.com/science/article/pii/S2192440622000077).  before hardware improvements are taken into account. Given how crucial solve times are for problem feasibility, that suggests it's still a ripe research area.
+[^6]: There's a good case to be made for 'yes'. In the past 20 years, there's been a [50x speed-up in MILP solvers from algorithmic improvements alone](https://www.sciencedirect.com/science/article/pii/S2192440622000077). That's before hardware improvements are taken into account. Given how crucial solve times are for problem feasibility, that suggests it's still a ripe research area.
 [^7]: To be clear, I'm not implying this is actually the case.
