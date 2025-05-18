@@ -135,7 +135,7 @@ While load following can be a complimentary strategy, I'm skeptical that it alon
 
 To summarize so far, green hydrogen is a bad fit for existing industrial applications and will struggle to provide a compelling and cost-effective product. These challenges are structural and will be incredibly difficult to solve.
 
-What can we do about it? The increasingly prevalent answer, it seems, is to double down and try to "brute force" the issue: invest into more R&D to eke out every last bit of performance, try to modularize everything, build huge electrolyzer factories, and hope that "learning curve magic" brings costs down to a competitive level. While I have some misgivings about this from a technical perspective, they don't need to be litigated here. Instead, let's work through some back-of-the-envelope financial numbers.
+What can we do about it? The increasingly prevalent answer, it seems, is to double down and try to "brute force" the issue: invest into more R&D to eke out every last bit of performance, try to modularize everything, build huge electrolyzer factories, and hope that "learning curve magic" brings costs down to a competitive level. While I have some misgivings about this from a technical perspective, they don't need to be litigated here[^9]. Instead, let's work through some back-of-the-envelope financial numbers.
 
 Where it's been tried at scale, green hydrogen [has achieved production costs around \\$5-8/kg](https://www.bnnbloomberg.ca/investing/commodities/2024/12/23/green-hydrogen-prices-will-remain-stubbornly-high-for-decades/). To compete with steam reforming, that needs to drop to at least \\$2/kg, and more realistically less than \\$1/kg. That's a 60% cost reduction using the most generous numbers from these ranges.
 
@@ -279,3 +279,5 @@ Those are odds we'll just have to take.
 [^7]: This can also lead to heat being generated in an uncontrolled manner, which is considered very bad for running a safe and reliable operation.
 
 [^8]: I have some more ideas, if anyone's interested. Feel free to reach out.
+
+[^9]: Modularization for complex industrial projects is a fascinating and very complex topic, and I hope to discuss it in detail in a separate post at some point.
