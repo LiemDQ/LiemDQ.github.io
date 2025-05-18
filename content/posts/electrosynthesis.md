@@ -11,7 +11,12 @@ The hot word in the power grid these days is 'dispatchability'. The ability to a
 
 The favorable economics of renewables and zero marginal cost of production mean that in many cases, it will make economic sense to overbuild generation capacity and simply curtail production when it isn't needed. An even more economically sensible option is for large consumers with load flexibility to perform [demand response](https://www.iea.org/energy-system/energy-efficiency-and-demand/demand-response), turning up [their consumption when electricity is plentiful and turning down or even idling when generation is low.](https://climate.mit.edu/ask-mit/can-we-do-anything-useful-excess-solar-and-wind-energy-besides-store-it)
 
-![electrolyzer_dispatch](/img/electrosynthesis/electrolyzer_dispatch.png "Electrolysis can exploit low prices on grids with heavy renewable presence.")
+<figure>
+<img src="/img/electrosynthesis/electrolyzer_dispatch.png" width=125%>
+<figcaption>
+Electrolysis can exploit low prices on grids with heavy renewable presence.
+</figcaption>
+</figure>
 
 The electrification of chemical synthesis is a great opportunity to simultaneously decarbonize heavy industry while building more demand response capability. While there are obvious and straightforward examples like replacing combustion boilers with electrical heaters or heat pumps, one of the biggest opportunities lies in electrifying the chemical reactions themselves. Many speculatively optimistic articles have been written [on the potential of industrial electrochemistry](https://spectrum.ieee.org/green-steel-production-electrochemical-engineers). What are we to make of this?
 
@@ -42,17 +47,23 @@ The same applies to other potential chemicals. They're mostly sold to industrial
 
 ### Green hydrogen has been a boondoggle
 
-A particularly influential [2020 report by the International Renewable Energy Agency (IRENA)](https://www.irena.org/publications/2020/Dec/Green-hydrogen-cost-reduction) predicted that costs could rapidly drop from economies of scale and that deployment of hydrogen electrolyzers could become widespread by 2030, allowing green hydrogen to reach parity with 'grey' hydrogen.
+A particularly influential [2020 report by the International Renewable Energy Agency (IRENA)](https://www.irena.org/publications/2020/Dec/Green-hydrogen-cost-reduction) predicted that costs could rapidly drop from economies of scale and that deployment of hydrogen electrolyzers could become widespread by 2030, allowing green hydrogen to reach parity with 'gray' hydrogen.
 
 Those predictions haven't borne out. The reality has been far more sobering—the majority of built projects have run into severe cost and schedule overruns and green hydrogen production costs aren't anywhere near fossil-based alternatives. 
 
-Many planned projects are now in limbo, and will likely never reach Final Investment Decision (FID). The track record is dismal: globally, not [a single green hydrogen project planned for 2021 is on schedule.](https://www.nature.com/articles/s41560-024-01684-7) 
+The track record is dismal: globally, [not a single green hydrogen project planned for 2021 is on schedule.](https://www.nature.com/articles/s41560-024-01684-7) Many planned projects are now in limbo, and will likely never reach Final Investment Decision (FID). 
 
-![Hydrogen project status](/img/electrosynthesis/h2_status.png "Status of green hydrogen projects, worldwide.")
+<figure>
+<img src="/img/electrosynthesis/h2_status.png">
+<figcaption>
+Status of green hydrogen projects, worldwide. (<a href="https://www.nature.com/articles/s41560-024-01684-7/figures/3">Source</a>)
+</figcaption>
+</figure>
 
 This brutal state of affairs belies a simple truth: electrifying the chemical industry is going to be very difficult. The technology is still in its relative infancy, and the economic case without subsidies isn't there. 
 
 While green hydrogen is the poster child for industrial electrification, I think it's in many ways a square peg being jammed into a round hole, and its problems can lead to lessons for the rest of the industry.
+
 ## Green hydrogen is fundamentally a poor fit in commodity chemical production 
 
 Green hydrogen plants have commonly been conceptualized in the context of a massive expansion of the hydrogen economy, where hydrogen is ubiquitously distributed, consumed and traded. In this speculative light sci-fi telling, these plants are depicted as huge standalone facilities located in light industrial parks surrounded by shrubbery and trees, with their subsystems arranged in nice orderly arrays progressing in linear fashion from inputs to outputs. 
@@ -73,6 +84,7 @@ Hydrogen isn't the most convenient or desirable molecule to keep around. The eng
 Out of approximately 100 million tons of hydrogen produced annually, the vast majority—around 85-95%—is immediately consumed onsite in downstream applications such as methanol production. 
 
 What this means is that actual process interfaces for hydrogen have a great deal of variety. The pressures, temperatures, flow rates, and purities needed for [hydroformylation](https://en.wikipedia.org/wiki/Hydroformylation) are very different from those needed for [hydrocracking](https://en.wikipedia.org/wiki/Cracking_(chemistry)#Hydrocracking). 
+
 ### Poor process integration results in inefficiencies
 
 Ask any seasoned engineer who's delivered big projects, and they'll tell you that the easiest, most reliable and most effective way to reduce costs is to *eliminate requirements you don't need*[^2]. Figure out what the system *actually* needs to do, and then optimize for *only those things*. No more and no less. 
@@ -93,7 +105,7 @@ One feature of water electrolysis is that the produced hydrogen is very pure. Th
 
 Who actually needs this level of purity? Combustion engines and furnaces don't really care what they're fed as long as it burns in air. If the hydrogen is used to make chemicals, it's just going to end up being mixed with other (probably fairly impure) ingredients such as carbon dioxide or nitrogen. It's like preparing pasta water by buying deionized water and then adding salt to it.
 
-In fact, the oft-quoted benchmark prices of \\$1-2 per kg for "grey" hydrogen can be misleading in an industrial context. Even though they're accurate, they're referring to "merchant" hydrogen. This assumes that the buyer needs pure and compressed hydrogen and the cost of these steps is taken into account. When the hydrogen is "captive", in other words, produced in a steam reformer, never isolated and immediately used, the "effective cost" can be difficult to determine but it can be significantly less than \\$1/kg. 
+In fact, the oft-quoted benchmark prices of \\$1-2 per kg for "gray" hydrogen can be misleading in an industrial context. Even though they're accurate, they're referring to "merchant" hydrogen. This assumes that the buyer needs pure and compressed hydrogen and the cost of these steps is taken into account. When the hydrogen is "captive", in other words, produced in a steam reformer, never isolated and immediately used, the "effective cost" can be difficult to determine but it can be significantly less than \\$1/kg. 
 
 The other product hydrogen electrolyzers make is high purity oxygen (after removing water). They make a lot of it! By mass they make 8 tons of oxygen for every ton of hydrogen. But it's usually just vented. Many vendors don't even bother listing it as a product. While oxygen isn't the most valuable industrial chemical, getting a high-purity stream with multi-ton-per-hour flow rates isn't trivial. 
 
@@ -113,7 +125,7 @@ Let's say, for the sake of argument, that the duration curve is literally a [Par
 
 Over time, as more flexible loads and more storage is installed to exploit this arbitrage opportunity, [the price distribution will level out thanks to the elasticity of demand](https://www.sciencedirect.com/science/article/pii/S014098832500307X). 
 
-![Price duration with storage](/img/electrosynthesis/price_duration.png "As more storage gets built, the price difference will shrink, as shown in these price duration curves.")
+![Price duration with storage](/img/electrosynthesis/price_duration.png "As more storage (or other forms of electricity arbitrage) gets built, the average savings from demand response will shrink, as shown by the flattening of the price duration curves.")
 
 There is no reason to believe electrolysis, among all possible demand-response tools, will be the marginal price setter. Even if you think this is currently the case, will it continue to be the case in 5 years? 10? 20? Do you know? Does anyone know? Is this an acceptable risk for a project possibly requiring hundreds of millions in capital investment with a payback period of 5-10 years?
 
@@ -123,17 +135,26 @@ While load following can be a complimentary strategy, I'm skeptical that it alon
 
 To summarize so far, green hydrogen is a bad fit for existing industrial applications and will struggle to provide a compelling and cost-effective product. These challenges are structural and will be incredibly difficult to solve.
 
-What can we do about it? The increasingly prevalent answer, it seems, is to double down and try to "brute force" the issue: invest into more R&D to eke out every last bit of performance, try to modularize everything, build huge electrolyzer factories, and hope that "learning curve magic" brings costs down to a competitive level.
+What can we do about it? The increasingly prevalent answer, it seems, is to double down and try to "brute force" the issue: invest into more R&D to eke out every last bit of performance, try to modularize everything, build huge electrolyzer factories, and hope that "learning curve magic" brings costs down to a competitive level. While I have some misgivings about this from a technical perspective, they don't need to be litigated here. Instead, let's work through some back-of-the-envelope financial numbers.
 
-While I have some misgivings about this from a technical perspective, they don't need to be litigated here. Instead, let's work through some back-of-the-envelope financial numbers.
+Where it's been tried at scale, green hydrogen [has achieved production costs around \\$5-8/kg](https://www.bnnbloomberg.ca/investing/commodities/2024/12/23/green-hydrogen-prices-will-remain-stubbornly-high-for-decades/). To compete with steam reforming, that needs to drop to at least \\$2/kg, and more realistically less than \\$1/kg. That's a 60% cost reduction using the most generous numbers from these ranges.
 
-Where it's been tried at scale, green hydrogen has achieved production costs around \\$5-8/ton. To compete with steam reforming, that needs to drop to at least \\$2/ton, and more realistically less than \\$1/ton. That's a 60% cost reduction using the most generous numbers from these ranges.
+<figure>
+<img src="/img/electrosynthesis/h2_bnef.png">
+<figcaption>
+Hydrogen production costs, CAPEX included, compared with gray hydrogen. (<a href="https://about.bnef.com/blog/green-hydrogen-to-undercut-gray-sibling-by-end-of-decade/">Source</a>)
+</figcaption>
+</figure>
   
 According to the IEA, there was about [300 MW of installed PEM electrolyzer capacity by the end of 2023](https://www.iea.org/energy-system/low-emission-fuels/electrolysers). To completely electrify all current use cases of hydrogen—approximately 100 million tons per year—we'd need, depending on your assumptions, somewhere between 600-1000 GW of installed capacity worldwide.
 
 If all of that is achieved with only PEM electrolyzers, that represents about 11 doublings of cumulative production. Then, if we *very generously* assume a 20% learning rate for the *entire* hydrogen plant, including balance of system, that gives us a plant capital cost of 8.5% relative to today's \\$2500/kW—roughly \\$210/kW. If we again generously assume that these plants will have an average electricity price of \\$30/MWh at a capacity factor of 90%, then gets us to a production cost of about \\$1.70/kg with a rather pedestrian 10-12% cost of capital.
 
+![H2 production costs](/img/electrosynthesis/h2_cost.png "Final green hydrogen production costs once gray hydrogen is fully displaced, assuming a constant learning rate.")
+
 To get to this point would require a cumulative capital investment of 200-300 billion dollars for the plants and likely tens of billions more for the factories. This may not seem that high, but keep in mind this doesn't account for the losses from the unprofitable plants over their depreciable lifetimes, which will cumulatively total in the hundreds of billions or even *trillions*. And the generous assumptions are piling up. What if the learning curve turned out to be 15% rather than 20%? That would nearly double the required capital investment, yet it too, is likely to be too optimistic.
+
+![H2 investment](/img/electrosynthesis/h2_investment.png "Investment requirements for fully displacing gray hydrogen. Even in the best-case scenario ~$30B in capital investment will be needed before capital costs drop enough to break even.")
 
 Who's going to be willing to pay for this? Extremely few investors will have access to the capital needed while being willing to stomach the risk. Government support needs to be generous and sustained, not vacillate with shifting political winds.
 
@@ -173,11 +194,13 @@ Consider the production of float glass. Glass melting furnaces require extremely
 
 ![Glass furnace diagram](/img/electrosynthesis/glass_furnace.png "Process diagram of glass production.")
 
-The furnace flue gas will be almost entirely water and CO2, which we can mix with the hydrogen to make methanol and subsequently plastics or resins. The furnace heat can be used to shift a water-gas equilibrium to achieve the optimal reactor feed composition.
+The furnace flue gas will be almost entirely water and CO2, which we can mix with the hydrogen to make methanol and subsequently plastics or resins. The furnace heat can be used, if required, to shift a water-gas equilibrium to achieve the optimal reactor feed composition.
 
 This arrangement allows both processes to achieve better unit economics. It eliminates the oxygen generator on the glassmaking side, the compression train on the electrolysis side and the steam reformer on the methanol side. The natural gas desulphurization system and steam network are shared between glassmaking and methanol production. The furnace heat recovery system generates superheated steam which can be expanded through a turbine, significantly reducing grid electricity consumption. 
 
-I'm not claiming that the economics of this specific example will ultimately pencil out. My point here is that even with the current disadvantages of water electrolysis, it isn't *immediately obvious*—at least, to me—that this is a bad idea[^3]. (At least, not any worse than using hydrogen for home heating.) 
+![Integrated glass process](/img/electrosynthesis/glass_integration.png "Block diagram of a hypothetical integrated hydrogen electrolysis/glass production facility.")
+
+I'm not claiming that the economics of this specific example will ultimately pencil out compared to e.g. simply electrifying the furnace. My point here is that even with the current disadvantages of water electrolysis, it isn't *immediately obvious*—at least, to me—that this is a bad idea[^3]. (At least, not any worse than using hydrogen for home heating.) 
 
 We also don't need to limit ourselves to making oxygen. Many industrially useful reactions are oxidation reactions, such as VOC degradation in wastewater treatment, [upcycling of waste plastics](https://www.nature.com/articles/s41467-025-59667-5), [aldehydes and ketones from alcohols](https://www.nature.com/articles/s41467-019-10928-0), or [olefins from alkanes](https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202507417). Oxygen evolution reaction (OER) alternatives remain a hugely understudied field and many of these reactions are poorly understood. There's a lot of potentially low-hanging fruit here. 
 
@@ -202,7 +225,7 @@ Of course, 'simple' doesn't mean easy—if anything, quite the opposite. Process
 The potential rewards, however, are enormous. A new, properly designed process might be able to fully take advantage of renewable electricity at bargain prices. A much simpler process could require significantly less capital despite the generally worse unit economics of electrochemistry. Such a process would be well-positioned to scale quickly and displace incumbents. 
 ### Make things that thermochemistry can't
 
-Before the Hall-Héroult process was invented, we had the [Deville process](https://en.wikipedia.org/wiki/Deville_process) for refining aluminum. This was a thermochemical process involving alumina (the oxide of aluminum), carbon dioxide, sodium metal and cryolite. It was significantly more expensive and complicated to operate:
+Before the Hall-Héroult process was invented, we had the [Deville process](https://web.archive.org/web/20160416035813/http://www.rusal.ru/en/press-center/RUSAL%20Encyclopedia_full_engl_FINAL.pdf) for refining aluminum. This was a thermochemical process involving alumina (the oxide of aluminum), carbon dioxide, sodium metal and cryolite. It was significantly more expensive and complicated to operate:
 
 * ~3.4 kilograms of sodium metal, a powerful but very expensive reducing agent, needed to be used for every kilogram of aluminum. 
 * It had to be done in a batched manner, making scaling up difficult.
@@ -241,7 +264,7 @@ To do so, we'll need outside-of-the-box thinking to find promising-but-underinve
 Those are odds we'll just have to take.
 
 
-[^1]: It's important to note that this goes both ways: an inability to decrease output can be just as problematic as an inability to increase it. While the latter is associated with renewables, the former includes many coal and nuclear plants. In both cases, inflexibility is a negative externality that must be compensated for elsewhere.
+[^1]: This goes both ways: an inability to decrease output can be just as problematic as an inability to increase it. While the latter is associated with renewables, the former includes many coal and nuclear plants. In both cases, inflexibility is a negative externality that must be compensated for elsewhere.
 
 [^2]: This is one of those aphorisms that seems completely self-evident to the point of unhelpful banality. But in my experience, it's horrifically true, and actually very difficult to consistently implement. 
 
