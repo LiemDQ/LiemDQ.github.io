@@ -1,6 +1,6 @@
 ---
 title: "Do We Need Better Hydrogen Catalysts?"
-draft: true
+draft: false
 date: 2025-07-07
 author: Liem Dam-Quang
 categories: ["chemistry", "energy"]
