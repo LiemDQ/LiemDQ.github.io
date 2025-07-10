@@ -219,17 +219,14 @@ So in theory, better OER catalysts could be genuinely beneficial, improving not 
 
 ## Seawater electrolysis: a non-solution to a non-problem
 
-https://scitechdaily.com/game-changing-new-technology-can-squeeze-hydrogen-from-seawater/
-
 This is such a stupid idea that I'm baffled by how it ever got any sort of momentum.
 
 Let's start by contextualizing the problem: the hydrogen from green hydrogen comes from water. Naturally, a large hydrogen plant will consume a fair amount of water. Making a kilogram of hydrogen requires roughly 9 kilograms of water. On top of that, this water has stringent purity requirements, as impurities can irreversibly degrade the electrolyzers through a variety of mechanisms, such as scaling or catalyst poisoning. Alkaline water electrolyzers typically reverse osmosis (RO) treated water, and PEM electrolyzers are even more stringent, requiring deionized (DI) water.[^11]
 
-https://www.science.org/content/article/splitting-seawater-provide-endless-source-green-hydrogen
 
 Even more water is needed for cooling. Every kilogram of hydrogen produced can generate enough heat to evaporate up to 20 kilograms of water! 
 
-Rather than using valuable freshwater, the reasoning goes, we could instead design robust catalysts that can make hydrogen directly from seawater, a natural and abundant electrolyte. Seems like a win-win!
+Rather than using valuable freshwater, the reasoning goes, we could instead [design robust catalysts that can make hydrogen directly from seawater](https://www.science.org/content/article/splitting-seawater-provide-endless-source-green-hydrogen), a natural and abundant electrolyte. Seems like a win-win!
 
 ![Types of seawater electrolysis](/img/h2_catalysis/seawater_types.png "Types of electrolysis, including seawater variants.")
 
@@ -350,9 +347,9 @@ And even assuming this vast chasm could be bridged, there remain fundamental eng
 
 First, there's the productivity. The production rate of a solar panel is limited by sunlight—in technical terms, the plane-of-array solar irradiance. A STH efficiency of 20%—which significantly exceeds the commercial efficiencies of solar panels + electrolyzers today—results in a peak productivity of 2.5 mol/m2-hour, corresponding to a current density of 16 mA/cm2. 
 
-This optimistic, best-case production rate is over 1-2 orders of magnitude lower than commercial electrolyzers. That means all of the active cell components must be spread over *1-2 orders of magnitude more area*. While an electrochemical cell and photochemical cell aren't identical in construction, this is an enormous economic disadvantage to start off with, especially given that the catalyst assemblies are more complex than equivalent ones in a traditional cell. 
+This optimistic, best-case production rate is over 1-2 orders of magnitude lower than commercial electrolyzers—which means all of the active cell components must also be spread over *1-2 orders of magnitude more area*. While electrochemical cells and photochemical cells aren't identical in construction, this is an enormous economic disadvantage to start off with, especially given that the catalyst assemblies are more complex than the equivalent ones in an electrochemical cell. 
 
-Lots of small plumbing lines and pumps will need to be manifolded together to feed water to the panels and collect hydrogen (a notoriously leaky molecule). Keeping all those connections and lines leak-free will be an significant operational challenge. 
+Other problems arise from the scale and scope of fluid management. Lots of small plumbing lines and pumps will need to be manifolded together to feed water to the panels and collect hydrogen (a notoriously leaky molecule). Keeping all those connections and lines leak-free will be an significant operational challenge. 
 
 For PECs there's the additional question of electrolyte management. These systems frequently use alkaline electrolytes to improve electrode stability, which can be extremely caustic. A spill can cause major environmental damage and pose a hazard to personnel. Normally, the impact of spills is mitigated by [building secondary containment structures](https://www.unitliner.com/oilfield), like retaining walls or berms. However, building secondary containment over an area the size of a solar farm would be a complete economic non-starter. Most likely, a commercial system would need to use neutral salts like phosphates, but this comes at the expense of efficiency and potentially electrode stability. 
 
@@ -366,7 +363,7 @@ Diagram of flow distribution manifolds for a photocatalytic system. (<a href="ht
 </figcaption>
 </figure>
 
-The previously mentioned pilot project solved this problem by… not addressing it. They just collected their H2 and O2 as a mixed gas and separated them in a downstream membrane system. Obviously, when the goal is simply to provide a proof-of-concept at a small scale and at ambient temperatures & pressures, this can be a pragmatic decision. But I'm skeptical this would survive a [PHA](https://safetyculture.com/topics/risk-assessment/process-hazard-analysis/) in an actual commercial venture.
+One of the most citedsolar hydrogen pilot projects solved this problem by… not addressing it. They just collected their H2 and O2 as a mixed gas and separated them in a downstream membrane system. Obviously, when the goal is simply to provide a proof-of-concept at a small scale and at ambient temperatures & pressures, this can be a pragmatic decision. But I'm skeptical this would survive a [PHA](https://safetyculture.com/topics/risk-assessment/process-hazard-analysis/) in an actual commercial venture.
 
 <figure>
 <img src="/img/h2_catalysis/solar_h2_sep.png">
