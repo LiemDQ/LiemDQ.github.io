@@ -3,6 +3,7 @@ title: "The Tower's Long Shadow"
 draft: false
 date: 2025-04-27
 author: Liem-Dam-Quang
+categories: ["energy", "engineering"]
 ---
 
 To a rough approximation, the process of humanity's material enrichment is the large-scale solution of separation problems. A disproportionate amount of a substance's usefulness is derived from the absence of other substances. Water, to take an obvious example, would be a virtually inexhaustible and abundant resource [if we didn't care about the presence of salt in it](https://en.wikipedia.org/wiki/Desalination). 

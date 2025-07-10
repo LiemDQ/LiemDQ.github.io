@@ -3,7 +3,7 @@ title: "Reflections on my time as a design team leader"
 draft: false
 date: 2022-10-08
 author: Liem Dam-Quang
-# categories: ["leadership"]
+categories: ["miscellaneous"]
 ---
 
 During my time in undergrad, I spent a year as a design team captain. Specifically, running a team [that builds and flies rockets](https://www.mcgillrocketteam.com/). I also spent several years trying (and failing) to get another design team off the ground[^1].

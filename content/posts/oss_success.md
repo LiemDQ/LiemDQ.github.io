@@ -3,6 +3,7 @@ title: "What makes some open-source projects dominate?"
 draft: false
 date: 2024-10-25
 author: Liem-Dam-Quang
+categories: ["software"]
 ---
 
 The modern world is built on open-source software. It powers critical functionality in our digital and physical infrastructure. Linux is the operating system of choice for a variety of professional applications ranging from web servers to microprocessors. The internet is built on top of open-source tools such as [BIND9](https://www.isc.org/bind/), [OpenSSL](https://www.openssl.org/), [iptables](https://linux.die.net/man/8/iptables), [nginx](https://nginx.org/), and much, much more. It's what makes it so easy and inexpensive for anyone to set up a website nowadays—imagine if your options were between writing your own networking stack for scratch or paying some company $500 for a "basic" license[^1].

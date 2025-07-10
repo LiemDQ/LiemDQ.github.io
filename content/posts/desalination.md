@@ -3,7 +3,7 @@ title: "Desalination: The Miracle and The Wall"
 draft: false
 date: 2024-09-28
 author: Liem Dam-Quang
-# categories: ["engineering", "energy"]
+categories: ["chemistry", "energy"]
 ---
 
 On June 21, 1961, in a dusty small town in Texas, about 60 miles south of Houston, President John F. Kennedy stepped up to the podium to make a speech before the assembled throngs of people below. Or rather, his aides did. The ongoing Cuban missile crisis demanded his presence in Washington, so he instead gave the speech through a telephone call. The event, however, was deemed of sufficient importance that Vice-President Lyndon Johnson was in attendance.
