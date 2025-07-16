@@ -110,9 +110,8 @@ The electrode potential is usually provided on a relative scale, using the rever
 
 The operating cell voltage is a tradeoff between energy efficiency and production rate, and consequently is a tradeoff between operating costs and capital costs. A more efficient cell requires a lower voltage to achieve the same current than a less efficient cell, which means it can produce the same amount of hydrogen using less electricity. Alternatively, it could operate at the *same voltage but at a higher current*, which allows it to achieve a higher productivity at the same energy efficiency. 
 
-As a side note, there's another performance metric called the [Faradaic efficiency](https://en.wikipedia.org/wiki/Faraday_efficiency), which is a measure of *reaction selectivity*. It's primarily used when there are multiple possible products that can be made, such as in [electrochemical CO2 reduction](https://en.wikipedia.org/wiki/Electrochemical_reduction_of_carbon_dioxide). In hydrogen electrolysis, the side reactions are usually negligible and the Faradaic efficiency is over 99.9%, so it's rarely discussed. 
+As a side note, there's another performance metric called the [Faradaic efficiency](https://en.wikipedia.org/wiki/Faraday_efficiency), which is a measure of *reaction selectivity*. It's primarily used when there are multiple possible products that can be made, such as in [electrochemical CO2 reduction](https://en.wikipedia.org/wiki/Electrochemical_reduction_of_carbon_dioxide). In hydrogen electrolysis, the side reactions are usually negligible and the Faradaic efficiency is over 99.9%, so it's rarely discussed[^3]. 
 
-(The Faradaic efficiency is completely unrelated to the energy efficiency. This is a common source of confusion and is often exploited by university communications offices who—intentionally, in my opinion—word their press releases with vague terminology like 'an efficiency of 99%'. This is subsequently picked up by [science journalists who aren't aware of this basic fact](https://www.earth.com/news/new-catalyst-precatalyst-improves-clean-hydrogen-production-to-99-9-efficiency/). An energy efficiency of 99% would be fantastic, while a Faradaic efficiency of *only* 99% means something's wrong. For the remainder of this article, the term 'efficiency' will exclusively refer to 'energy efficiency' unless explicitly stated otherwise.)
 
 The upshot is that hydrogen electrocatalyst development boils down to finding new materials that are ideally:
 1. Chemically stable
@@ -204,7 +203,7 @@ There's another problem beyond stability issues. Vanishingly few catalysts have 
 
 ![OER results](/img/h2_catalysis/oer_overpotential.png "There's been little progress in achieving lower overpotentials for the OER.")
 
-This lack of progress suggests that there's some fundamental limit preventing us from achieving better performance. Rather freely exploring the design space, we're just moving on a constrained path embedded in some higher-dimensional surface.
+This lack of progress suggests that there's some fundamental limit preventing us from achieving better performance. Rather than freely exploring the design space, we're just moving on a constrained path embedded in some higher-dimensional surface.
 
 Theoretical and computational developments starting in the mid-2000s have revealed that this is indeed the case. Heterogeneous catalysts are subject to what are called [linear scaling relations](https://pubs.rsc.org/en/content/articlelanding/2015/sc/c5sc02910d), which impose fundamental limits on their performance. In essence, the binding energies of reaction intermediates are intrinsically mathematically linked, and at the limit improving one reaction step inevitably makes another one worse. Importantly, this is independent of the materials used in the catalyst. A detailed explanation is rather technical and beyond the scope of this post, but the point is that the OER is a prime example of a reaction [that's butting up against these limits](https://ccml-uconn.github.io/CHEG-5395-4995/Final/Project/Man2011.pdf)[^6].
 
@@ -221,7 +220,7 @@ So in theory, better OER catalysts could be genuinely beneficial, improving not 
 
 This is such a stupid idea that I'm baffled by how it ever got any sort of momentum.
 
-Let's start by contextualizing the problem: the hydrogen from green hydrogen comes from water. Naturally, a large hydrogen plant will consume a fair amount of water. Making a kilogram of hydrogen requires roughly 9 kilograms of water. On top of that, this water has stringent purity requirements, as impurities can irreversibly degrade the electrolyzers through a variety of mechanisms, such as scaling or catalyst poisoning. Alkaline water electrolyzers typically reverse osmosis (RO) treated water, and PEM electrolyzers are even more stringent, requiring deionized (DI) water.[^11]
+Let's start by contextualizing the problem: the hydrogen from green hydrogen comes from water. Naturally, a large hydrogen plant will consume a fair amount of water. Making a kilogram of hydrogen requires roughly 9 kilograms of water. On top of that, this water has stringent purity requirements, as impurities can irreversibly degrade the electrolyzers through a variety of mechanisms, such as scaling or catalyst poisoning. Alkaline water electrolyzers typically use reverse osmosis (RO) treated water, and PEM electrolyzers are even more stringent, requiring deionized (DI) water.[^11]
 
 
 Even more water is needed for cooling. Every kilogram of hydrogen produced can generate enough heat to evaporate up to 20 kilograms of water! 
@@ -447,6 +446,8 @@ At the margin, the boundary between applied basic research and basic applied res
 [^1]: It doesn't increase forever. Eventually the current will asymptotically approach a maximum called the [limiting current](https://ocw.mit.edu/courses/10-626-electrochemical-energy-systems-spring-2014/4fc4a8de47107536179698a3b77a77b6_MIT10_626S14_S11lec16.pdf), although for water electrolysis this limit is usually so high that it is irrelevant.
 
 [^2]: Disclaimer: my employer, [Prometheus Fuels](https://prometheusfuels.com/), is working on something along these lines.
+
+[^3]: The Faradaic efficiency is completely unrelated to the energy efficiency. This is a common source of confusion and is often exploited by university communications offices who—intentionally, in my opinion—word their press releases with vague terminology like 'an efficiency of 99%'. This is subsequently picked up by [science journalists who aren't aware of this basic fact](https://www.earth.com/news/new-catalyst-precatalyst-improves-clean-hydrogen-production-to-99-9-efficiency/). An energy efficiency of 99% would be fantastic, while a Faradaic efficiency of *only* 99% means something's wrong.
 
 [^4]: Acid-tolerant catalysts are required in proton exchange membrane (PEM) electrolyzers, which are increasingly being adopted for a variety of technical reasons.
 
