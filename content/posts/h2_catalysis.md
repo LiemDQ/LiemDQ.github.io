@@ -71,8 +71,7 @@ This feeds into a popular perception that the need for better catalysts is major
 3. Seawater electrocatalysts
 4. Solar-to-hydrogen photocatalysts
 
-Would a breakthrough in any of these rescue the economics of green hydrogen?
-
+Would a breakthrough in any of these rescue the economics of green hydrogen? *Spoiler: the answer is no*.
 
 ## What do electrocatalysts do?
 
@@ -104,9 +103,9 @@ From an electrical perspective, electrochemical cells are very unusual loads. Ev
 
 An electrocatalyst reduces the voltage needed to achieve a specific current density; therefore it improves the energy efficiency of the cell since $\text{energy} = \text{voltage}\times\text{current}\times\text{time}$, but hydrogen production is proportional to $\text{current}\times\text{time}$. In the technical literature, the electrolyzer current is usually expressed in current density—current per unit electrode active area—so that the performance of electrolyzers of different sizes can be compared in an apples-to-apples manner. 
 
-![H2 catalyst effect](/img/h2_catalysis/catalyst_effect.png "Effect of various catalysts on performance.")
+![H2 catalyst effect](/img/h2_catalysis/catalyst_effect.png "Effect of various catalysts on performance. MoS2 has an activation overpotential of roughly 170 mV and an overpotential of 260 mV at 10 mA/cm2.")
 
-The electrode potential is usually provided on a relative scale, using the reversible hydrogen electrode (RHE) as a comparison point. The RHE is an "ideal" electrode that represents the minimum potential required for the hydrogen evolution reaction to occur. The additional voltage required to achieve a given amount of current is called the *overpotential*. Two common benchmarks are the overpotential required to reach a current density of 10 mA/cm^2, and the overpotential required to trigger the *onset* of current called the *activation* overpotential. An overpotential of 0 volts represents an energy efficiency of 100%[^9]. 
+The electrode potential is usually provided on a relative scale, using the reversible hydrogen electrode (RHE) as a comparison point. The RHE is an "ideal" electrode that represents the minimum potential required for the hydrogen evolution reaction to occur. The additional voltage required to achieve a given amount of current is called the *overpotential*. Two common benchmarks are the overpotential required to reach a current density of 10 mA/cm2, and the overpotential required to trigger the *onset* of current called the *activation* overpotential. An overpotential of 0 volts represents an energy efficiency of 100%[^9]. 
 
 The operating cell voltage is a tradeoff between energy efficiency and production rate, and consequently is a tradeoff between operating costs and capital costs. A more efficient cell requires a lower voltage to achieve the same current than a less efficient cell, which means it can produce the same amount of hydrogen using less electricity. Alternatively, it could operate at the *same voltage but at a higher current*, which allows it to achieve a higher productivity at the same energy efficiency. 
 
@@ -154,8 +153,7 @@ Ramboll's cost breakdown for a PEM electrolyzer plant. (<a href="https://www.ire
 
 Readjusting the catalysts costs to reflect this means a virtually free catalyst, *ceteris paribus*, would reduce the plant CAPEX by around 1% and have a negligible effect on OPEX.
 
-Electrode overpotentials, meanwhile, are less than 100 mV for top-performing catalysts which represents an energy efficiency of 92-94%. The very best performing catalysts in the lab have overpotentials of less than 30 mV, which is 98% efficient!
-Impressive as this is, it also sets a ceiling on potential improvements. If we take into consideration all system-wide energy losses, and not just the electrolyzer stack, a 100 mV overpotential represents an energy loss of about 5%.
+Electrode overpotentials, meanwhile, are less than 100 mV for top-performing catalysts which represents an energy efficiency of 92-94%. If we take into consideration all system-wide energy losses, and not just the electrolyzer stack, a 100 mV overpotential represents an energy loss of about 5%. The very best performing catalysts in the lab have overpotentials of less than 30 mV, which is 98% efficient! Impressive as this is, it also sets a ceiling on potential improvements. 
 
 
 ![H2 catalyst results](/img/h2_catalysis/her_catalysts.png "just one more hydrogen catalyst bro. i promise bro just one more catalyst and green hydrogen will be viable bro. bro please. just one more catalyst. please just one more. please cmon bro. bro please.")
@@ -165,7 +163,7 @@ Impressive as this is, it also sets a ceiling on potential improvements. If we t
 
 That's not to say that more studies would be completely useless. There are avenues of investigation that are still worth exploring because they could result in useful advances in other fields or can help de-risk commercial scaleup: e.g. work degradation mechanisms or deposition methods.
 
-But it's safe to say that any further gains would likely be at best incremental. There's nothing wrong with incremental progress, and it's a necessary part of commercializing promising technologies. But we also have to consider the potential upside. The best case for a future hydrogen catalyst is that it reduces energy consumption by ~5% and capital costs by 1%. 
+There's nothing wrong with incremental progress, and it's a necessary part of commercializing promising technologies. But we also have to consider the potential upside and it's safe to say that any further gains would likely be at best marginal. The best case for a future hydrogen catalyst is that it reduces energy consumption by ~5% and capital costs by 1%. 
 
 Does that seem like a compelling case for further research investment?
 
@@ -278,7 +276,7 @@ Process diagram of combined electrolysis and desalination. (<a href="https://rep
 
 Admittedly, some additional processing beyond drinking water purity is needed to make it suitable for hydrogen production. For the sake of argument, let's assume we have an egregiously inefficient setup and that our water treatment cost is *50 times* higher, or about \\$25/m3. That would increase our production cost by ~\$0.25/kg H2.
 
-Is that a non-negligible number? Sure. Are there bigger fish to try? Yes. Could we also assume less than a 50x markup for desalination? You bet!
+Is that a non-negligible number? Sure. Are there bigger fish to fry? Yes. Could we simply also assume a markup that's less than 50x? You bet!
 
 Seawater electrolysis belies a complete ignorance of engineering design principles or any of the techno-economic realities of green hydrogen. 
 
@@ -372,13 +370,13 @@ Diagram of a system to separate mixed O2 and H2 produced from photocatalysis. (<
 </figure>
 
 
-Now, to be fair, solar-to-hydrogen has always been billed as a longer-term development pathway. But nevertheless, it's hard to see how this can ever be cost-competitive with existing electrolysis technology. On every metric that matters is still orders of magnitude away from being economically competitive, even after decades of research. 
+To be fair, solar-to-hydrogen has always been billed as a longer-term development pathway. But nevertheless, it's hard to see how this can ever be cost-competitive with existing electrolysis technology. On every metric that matters is still orders of magnitude away from being economically competitive, even after decades of research. 
 
-Due to its technological immaturity, there haven't been many techno-economic studies of solar hydrogen. One study estimated a production cost of \\$11.4/kg under several (very generous) assumptions for efficiency, manufacturing and balance-of-system costs, and \\$6.1/kg *assuming the electrochemical stack components are completely free*. 
+Due to its technological immaturity, there haven't been many techno-economic studies of solar hydrogen. One study estimated [a production cost of \\$11.4/kg](https://pubs.rsc.org/en/content/articlehtml/2016/ee/c5ee02573g) under several (very generous) assumptions for efficiency, manufacturing and balance-of-system costs, and \\$6.1/kg *assuming the electrochemical stack components are completely free*. 
 
-On the other hand, the DOE believes a [production cost of \\$2.10/kg](https://www.energy.gov/eere/fuelcells/doe-technical-targets-hydrogen-production-photoelectrochemical-water-splitting) (in 2007 dollars—about \\$3.25/kg today) could eventually be reached assuming certain optimistic performance goals are met[^15]. One of these goals, I should note, is an [effective panel cost of \\$9/m2](https://web.archive.org/web/20161223095228/https://www.hydrogen.energy.gov/pdfs/review09/pd_23_james.pdf), including installation costs, which is cheaper than the current lowest FOB price for Chinese solar panels. 
+On the other hand, the DOE believes a [production cost of \\$2.10/kg](https://www.energy.gov/eere/fuelcells/doe-technical-targets-hydrogen-production-photoelectrochemical-water-splitting) (in 2007 dollars—about \\$3.25/kg today) could eventually be reached assuming certain optimistic performance goals are met[^15]. One of these goals, I should note, is an [effective panel cost of \\$9/m2](https://web.archive.org/web/20161223095228/https://www.hydrogen.energy.gov/pdfs/review09/pd_23_james.pdf), including installation costs[^16], which is cheaper than the current lowest FOB price for Chinese solar panels. 
 
-Is this a realistic assumption? The work continues. One startup, SunHydrogen, [recently announced a pilot solar hydrogen project](https://www.hydrogeninsight.com/production/-first-of-its-kind-fortescue-backed-sunshine-to-green-hydrogen-plant-on-the-cusp-of-starting-production/2-1-1837230) with the Australian mining giant Fortescue. I guess we'll see. 
+Is this a realistic assumption? Who knows! Nonetheless, the work continues. One startup, SunHydrogen, [recently announced a pilot solar hydrogen project](https://www.hydrogeninsight.com/production/-first-of-its-kind-fortescue-backed-sunshine-to-green-hydrogen-plant-on-the-cusp-of-starting-production/2-1-1837230) with the Australian mining giant Fortescue. I guess we'll see. 
 
 ## Some takeaways
 
@@ -472,3 +470,5 @@ At the margin, the boundary between applied basic research and basic applied res
 [^14]: Important note: standardization *is not equivalent to* modularization. The potential economic benefits of the latter are, in my opinion, much more dubious.
 
 [^15]: Historically, the DOE is rather infamous for setting completely unrealistic performance targets in their green hydrogen research programs. 
+
+[^16]: I also think the way they propose deploying the "panels" would be impractical, although I suppose at this juncture this is mostly nitpicking.
