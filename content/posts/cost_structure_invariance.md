@@ -12,7 +12,7 @@ At a fundamental level, raising the standard of living means making goods and se
 
 A common refrain is that cost reduction comes from economies of scale and [learning effects](https://corporatefinanceinstitute.com/resources/management/experience-curve/). For every doubling of cumulative capacity, the unit costs drop by a certain percentage. That percentage value is called the learning rate, and it varies by industry and by product. This phenomenon is sometimes called "[Wright's law](https://ourworldindata.org/learning-curve)" and has been observed in virtually every industry[^23]. 
 
-But if someone were to ask how solar panels became so inexpensive[^22], "learning curve effects" feels like a non-answer. It's describing a *consequence* of other causal mechanisms, *not a cause in  itself*. It might say something about the pace of cost reductions, but it can't say anything about their *nature*. 
+But if someone were to ask how solar panels became so inexpensive,[^22] "learning curve effects" feels like a non-answer. It's describing a *consequence* of other causal mechanisms, *not a cause in itself*. It might say something about the pace of cost reductions, but it can't say anything about their *nature*. 
 
 I think most would agree that the latter is far more interesting, but it inevitably requires diving into the details of each individual scenario. With such a breadth of potential topics, can there even be any generalizable insights? Is there a "key" to understanding cost reductions?
 
@@ -45,7 +45,7 @@ Cost per transistor by process node, once manufacturing volumes are accounted fo
 </figcaption>
 </figure>
 
-The problem is the fixed costs, stemming from the [exponentially growing complexity of the design process](https://semiengineering.com/facing-off-against-growing-chip-design-complexity/). Firstly, [photolithographic mask sets](https://semiengineering.com/knowledge_centers/manufacturing/lithography/photomask/), the "stencils" used to manufacture a chip design, are getting more expensive. A mask set in a leading edge process node can cost tens of millions of dollars.
+The problem lies in the fixed costs, stemming from the [exponentially growing complexity of the design process](https://semiengineering.com/facing-off-against-growing-chip-design-complexity/). Firstly, [photolithographic mask sets](https://semiengineering.com/knowledge_centers/manufacturing/lithography/photomask/), the "stencils" used to manufacture a chip design, are getting more expensive. A mask set in a leading edge process node can cost tens of millions of dollars.
 
 <figure>
 <img src="/img/cost_structure/wafer_cost.png">
@@ -60,7 +60,7 @@ In conjunction with that, [chip development costs are exploding](https://www.tom
 <figure>
 <img src="/img/cost_structure/ibs_design_costs2.png">
 <figcaption>
-Cost to design chips by process note. Taken from 2023 ARM prospectus. (<a href="https://www.sec.gov/Archives/edgar/data/1973239/000119312523216983/d393891df1.htm">Source</a>)
+Cost to design chips by process node. Taken from 2023 ARM prospectus. (<a href="https://www.sec.gov/Archives/edgar/data/1973239/000119312523216983/d393891df1.htm">Source</a>)
 </figcaption>
 </figure>
 
@@ -150,7 +150,7 @@ There's another observation to be made here—one that's far more interesting fo
 
 Pretty much every cost item grew in lockstep with the others. How can this be? All cost scalings are equal, but some are more equal than others: certain cost drivers, like verification, should have superlinear scaling. Somehow, productivity improvements almost perfectly masked these effects.
 
-Even more curiously, this pattern—where cost structures remain linear despite nonlinear complexity growth—isn't unique to semiconductors. Similar dynamics seem to appear across other industries experiencing rapid technological change and price deflation, ranging from desalination to rockets. Despite massive cost reductions, technological innovations, and structural changes, the cost structure of these industries tends to remain constant.
+Even more curiously, this pattern—where cost structures remain constant despite nonlinear complexity growth—isn't unique to semiconductors. Similar dynamics seem to appear across other industries experiencing rapid technological change and price deflation, ranging from desalination to rockets. Despite massive cost reductions, technological innovations, and structural changes, the cost structure of these industries tends to remain constant.
 
 ## The law of cost structure invariance
 
