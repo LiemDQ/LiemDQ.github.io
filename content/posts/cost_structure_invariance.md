@@ -14,7 +14,7 @@ A common refrain is that cost reduction comes from economies of scale and [learn
 
 But if someone were to ask how solar panels became so inexpensive,[^22] "learning curve effects" feels like a non-answer. It's describing a *consequence* of other causal mechanisms, *not a cause in itself*. It might say something about the pace of cost reductions, but it can't say anything about their *nature*. 
 
-I think most would agree that the latter is far more interesting, but it inevitably requires diving into the details of each individual scenario. With such a breadth of potential topics, can there even be any generalizable insights? Is there a "key" to understanding cost reductions?
+I think most would agree that the latter is far more interesting, but it necessitates diving into the details of each individual scenario. With such a breadth of potential topics, can there even be any generalizable insights? Is there a "key" to understanding cost reductions?
 
 I believe there is such a key, and it lies in understanding a counterintuitive pattern that emerges across industries: even as technologies radically transform products and slash costs, *the optimal allocation of expenses remains remarkably constant*. To see how this manifests in practice, let's examine several case studies of dramatic price deflation.
 
@@ -24,7 +24,7 @@ The story of the semiconductor industry is the archetypical example.
 
 To this day, it remains perhaps the finest demonstration of the power of human ingenuity and industry. As it went from the crude, hand-soldered contraptions of the '50s to the atomically precise marvels of today, the industry reshaped the world—and itself.
 
-Decade after decade, die shrink after die shrink, *inevitably*: the cost of computing reliably dropped at an exponential pace. Computation went from an activity of powerful nation-states, to one of corporations, to a luxury, to a necessity, to a commodity.
+Decade after decade, die shrink after die shrink, reliably and *inevitably*: the cost of computing dropped at an exponential pace. Computation went from an activity of powerful nation-states, to one of corporations, to a luxury, to a necessity, to a commodity.
 
 This was the crux of [Gordon Moore's original prediction](http://cva.stanford.edu/classes/cs99s/papers/moore-crammingmorecomponents.pdf). It's been twisted into a statement about technical performance—i.e., transistor densities—over the years, but it was originally about *economics*. Specifically, Moore predicted that the economically optimal transistor density would double roughly every 2 years.
 
@@ -87,7 +87,7 @@ The biggest cost drivers in chip design are physical design, verification, and s
 
 Software development is the simplest one to explain, despite being the largest cost item. Advanced chips need more sophisticated scheduling, power management and memory management algorithms to achieve acceptable performance. They're expected to support a dizzying array of features: parallel processing, security and authentication, memory isolation, communication protocols, hardware acceleration, dozens or even hundreds of device drivers, and more. Accompanying these features are tools for OEM engineers: multiple hardware configurations, board support packages, compilation toolchains, hardware abstraction layers and middleware. All these configurations, tools, and features create a multiplying set of test cases and interactions, which likely increases at a rate between $O(N^2)$ and $O(N^3)$.
 
-Physical design and verification are suffering from a similar problem, driven by the smaller and more numerous transistors in every chip generation. As we push the physics to the limit, the convenient abstractions we rely on to simplify the designer's job begin to fail. For instance, what determines whether a transistor is switched on or off? According to basic semiconductor theory, it's the gate-to-source voltage. But as sizes shrink, the answer increasingly becomes "it depends". 
+Physical design and verification are suffering from a similar problem, driven by the smaller and more numerous transistors in every chip generation. As we push the physics to the limit, the convenient abstractions we rely on to simplify the designer's job begin to fail. For instance, what determines whether a transistor is switched on or off? According to basic semiconductor theory, it's the [gate-to-source voltage](https://en.wikipedia.org/wiki/Threshold_voltage) that determines this. But as sizes shrink, the answer increasingly becomes "it depends". 
 
 Parasitic effects become prominent or even dominant. Interactions with neighboring circuit components can no longer be ignored. Statistical variation becomes *thermodynamically* unavoidable: a transistor channel region in a 5 nm process might have fewer than 10 dopant atoms! 
 
