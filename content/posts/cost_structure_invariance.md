@@ -529,60 +529,23 @@ It gets messier once you start asking too many questions about the nature of a "
 
 Even assuming the principle is true, how useful is it, really? It's basically telling us to [draw the rest of the owl](https://www.reddit.com/r/restofthefuckingowl). It might inform us on roughly *what* the goal should be, but gives us nothing about the juicy stuff: *how to actually get there*. 
 
-These are valid concerns, but think about other commonly-mentioned 'laws' like Moore's law or Wright's law. Like them, cost structure invariance is descriptive: it's an empirical observation that appears to roughly hold and doesn't have any theoretical justification behind it[^8].
+These are valid concerns, but consider other commonly-mentioned 'laws' like Moore's law or Wright's law. Like them, cost structure invariance is descriptive: it's an empirical observation that appears to roughly hold and doesn't have any theoretical justification behind it[^8].
 
-And just like those laws, its usefulness comes not from its specific quantitative predictions, but rather from *using its qualitative implications to guide decision-making*. I find it a useful framework because I think it captures a few important ideas about the nature of innovation and so-called 'learning curves'.
+And just like those laws, its usefulness comes not from its specific quantitative predictions, but rather from *using its qualitative implications to guide decision-making*. 
 
-Big cost reductions may originate from a focused improvement in a small number of metrics, or the substitution of one component for a novel one. But the process of translating those gains to the market is a holistic one. This means that the potential gains are immense, but it may also require a complete re-thinking of a product from the ground up. The fundamental assumptions and requirements driving the design must be revised. If Y is a better version of X, we shouldn't be asking "how can we replace X with Y?", but rather "how can we use Y to get rid of the stuff that isn't X?"
+I find it a useful framework because I think it captures a few important ideas about the nature of innovation and so-called 'learning curves'. Big cost reductions may originate from a focused improvement in a small number of metrics, or the substitution of one component for a novel one. But the process of translating those gains to the market is a holistic one. This means that the potential gains are immense, but it may also require a complete re-thinking of a product from the ground up. The fundamental assumptions and requirements driving the design must be revised. If Y is a better version of X, we shouldn't be asking "how can we replace X with Y?", but rather "how can we use Y to get rid of the stuff that isn't X?"
 
-Finding the answer to that doesn't come from staring at stuffy costing spreadsheets and nicely colored slide decks packed with bar charts—it requires time on the shop floor and a focused, deep knowledge of a problem domain.
+Finding the answer to that doesn't come from staring at stuffy costing spreadsheets and nicely colored slide decks packed with bar charts—it requires time on the shop floor and a focused, deep knowledge of a problem domain. The choice of categories for the cost structure is simply what feels "natural": perhaps because they're reflective of some bottom-up knowledge—however superficial—of what items are result in the most representative discrete categorizations without getting lost in the weeds. 
 
-Of course, "be a subject matter expert in the field you wish to innovate in" isn't a particularly insightful or helpful conclusion. Yet it's insufficient on its own. Something more is needed: the ability to simultaneously keep the higher-level architectural view in mind while juggling the low-level details, and an open-mindedness towards challenging assumptions and exploring the implications of radical and unorthodox changes. 
+Furthermore, when requirements or assumptions about the design are externally imposed, the cost structure is no longer free to change in response to a change in the inputs. These external requirements can be due to government regulation, customer demands, bureaucracy, or just simply [institutional inertia](https://liem.ca/posts/oss_success/).
 
-Needless to say, this doesn't come easily to most of us! What if there's no secret?
+The end result, however, is the same. New techniques and new technologies fail to improve performance as much as expected, or *even end up performing worse overall* as adaptations are required to accommodate them.
 
----
+Of course, "be a subject matter expert in the field you wish to innovate in, and make sure your solutions aren't overly constrained" isn't a particularly insightful or helpful conclusion. Yet it's insufficient on its own. Something more is needed: the ability to simultaneously keep the higher-level architectural view in mind while juggling the low-level details, and an open-mindedness towards challenging assumptions and exploring the implications of radical and unorthodox changes. 
 
-The eternal debate among deeptech nerds is about whether a SpaceX could exist without an Elon Musk. Somehow, they've managed to defy all the conventional wisdom when it comes to engineering projects. According to the infamous engineering triangle, you can only pick two of good, fast, and cheap[^20]. 
+Needless to say, doing this isn't exactly a walk in the park! But Moore's law never said anything about whether shrinking transistors would be *easy*, just that it would happen.
 
-![Engineering triangle](/img/cost_structure/triangle.png)
-Yet somehow SpaceX is able to achieve all three! It's an organization that's clearly more productive, more fast-paced, more cost-effective, more innovative than anybody else in its domain. 
-
-The billion-dollar question, then: Is it possible to build something like that without all the… personality quirks? Or are they inextricably linked to the company's DNA? Countless people have tried to emulate SpaceX's ways. There's a lot of money awaiting anyone who can figure out the recipe. 
-
-Do startups need to be "hardware-rich"? Add quantifiable metrics to every process? Embrace "vertical integration" and "first principles thinking"? Put up Elon's [oft-repeated 'Algorithm' mantra](https://www.inc.com/jeff-haden/elon-musks-algorithm-a-5-step-process-to-dramatically-improve-nearly-everything-is-both-simple-brilliant.html) on all the walls? Or is it all just cargo culting and none of it really matters? Even on some of Musk's other ventures, [the jury's still out on whether the formula—whatever it is—works](https://www.bloomberg.com/news/features/2025-07-31/elon-musk-s-boring-company-is-digging-tunnels-for-spacex-xai-office). 
-
-
-There seem to be two common themes linking all Musk's companies which presumably explain their success: 
-
-1. They [prioritize speed above everything else](https://substack.com/@worthoverdoing/p-166556240).
-2. They regularly put all their chips on the table and [go to ridiculous lengths to achieve the smallest of gains](https://substack.com/@johnpsmith326219/p-149641281), often in service of the first point. 
-
-I've always found this explanation to be unsatisfying. Setting unrealistic timelines and trying to rush through things is far from a unique leadership trait. Meanwhile, *the cost-benefit tradeoff doesn't suddenly disappear just because someone is willing to eat a bunch of costs!* Taking it too far can be hugely damaging to morale while getting you almost nothing for it[^14]. 
-
-*The only way this works is if the costs are consistently lower or the benefits are consistently higher than expected.* 
-
-Yet when put into context, the objective benefits of this approach are often rather modest. Take one of the (many) stories from the Falcon 9 development program. They needed a big cryogenic storage tank but Musk balked at paying to build a new one. SpaceX engineers wound up scouring the entire state of Florida, searching through junkyards and decommissioned government facilities until they found a huge, perfectly functional old tank from the Apollo program worth  \\$3,000,000 that the government was willing to sell for \\$86,000. They then donned SCUBA gear to inspect it, transported it, and rejigged their setup to accommodate it. The tank works without a hitch.
-
-Is this unquestionably a huge win? Yes! But this was also the biggest win they achieved. In the bigger picture, do all these schemes make *that* big of a difference? To be sure, these efforts, in the moment, certainly could have made a big difference to a cash-strapped startup teetering on bankruptcy, but did they have a significant impact on the final cost to the end customer? Given that the Falcon 9 cost over \\$300 million before reaching the launch pad and that each customer is paying \\$65 million per launch, probably not! Parsimony can make for entertaining reading, but on its own, it doesn't seem to be an adequate explanation. You don't become 50% cheaper than the competition just by saving a few million dollars on infrastructure a decade ago.
-
-Clearly, the real advantage is cultural. Musk is notorious for setting ludicrously unrealistic timelines, but to his credit, he has also shown considerable flexibility with regard to what constitutes an acceptable solution. He enforces hard constraints that preclude "conventional" approaches but ultimately opens up the solution space by being willing to compromise on secondary goals. 
-
----
-
-Let's return to that ULA graph on reusable launch costs.
-
-![Reuse cost index](/img/cost_structure/reuse_index.png) 
-
-I'm almost certain that in the early days of SpaceX, someone showed Musk this graph, or something equivalent. It's not a particularly sophisticated analysis. What's remarkable is that he pushed forward with his reuse ambitions *anyway*. Yes, you could assume certain numbers and punch them in and get the SpaceX results out. *But you'd have no evidence these numbers would even be achievable!* It was just based off of vibes. 
-
-This is central to Musk's *modus operandi*. He embraces a profound form of the "indefinite optimism" derided by his colleague, Peter Thiel: he doesn't necessarily know what the solution is, but is convinced that it exists. At the margin, the boundaries of agency are determined by physical reality, but also social permissibility. 
-
-When you act as if *any* juice is worth *any* squeeze, you will ask questions that no one else bothers to ask. You may ask a lot of irrelevant questions, but you'll also ask the important ones.
-
-In doing so, you build a culture that leaves no stone unturned. A culture that challenges default assumptions. A culture that refuses to accept the infeasibility of a task before serious attempting it.
-
-A culture that rebalances cost structures.
+If there's any lesson to be learned from the shop floor, it's that obviousness does not imply straightforwardness.
 
 
 
@@ -607,7 +570,6 @@ A culture that rebalances cost structures.
 
 [^13]: The technical details are beyond the scope of this (already very long-winded) essay, but just to be absolutely clear, this is an *extremely* optimistic assumption! It's on a similar level as assuming we'll have widely available and commercially viable fusion energy in 5-10 years…
 
-[^14]: In my experience, this dynamic is particularly widespread in public-facing events organized by nonprofits but mostly staffed by volunteers. 
 
 [^15]: I know some people at ULA that for a long time believed that SpaceX was committing accounting fraud in order to stay solvent.
 
@@ -619,7 +581,6 @@ A culture that rebalances cost structures.
 
 [^19]: One obvious example: we know sodium-ion performs much better at cold temperatures. Could that eliminate the need for heating systems?
 
-[^20]: And sometimes only one. If you're really unlucky, zero.
 
 [^21]: The upper stage is \\$12 million. Launch operations are another \\$6 million. Refurbishment is \\$1 million, give or take. This adds up to \\$19 million in total.
 
