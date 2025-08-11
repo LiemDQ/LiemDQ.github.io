@@ -252,13 +252,13 @@ Regulatory streamlining reduced development costs and timelines. Developers got 
 <figure>
 <img src="/img/cost_structure/wind_structure.png">
 <figcaption>
-Data taken from IRENA's Renewable Energy Cost Database, DOE and NREL. Turbine prices are shifted back by a year to reflect typical lead times from turbine purchasing to site commissioning. 
+Wind energy cost breakdown in the US between OPEX, turbine and balance of system (BoS) CAPEX by year. Turbine prices are shifted back by a year to reflect typical lead times from turbine purchasing to site commissioning. Data taken from IRENA's Renewable Energy Cost Database, DOE and NREL.
 </figcaption>
 </figure>
 
 If prices remained the same over this period, then sure, one could expect the cost breakdown to be the same year over year. But here, the period with *the most pronounced cost declines* (2010-2021) also had a static cost structure! There's a gradual shift towards a larger proportion of OPEX, but it only becomes prominent starting in 2020. The LCOE stops improving in 2022 and is marked by a large shift in cost structure (likely due to COVID-induced supply chain disruptions).
 
-Again, this is very unusual. Some changes like efficiency improvements would result in across-the-board cost reductions, but this isn't necessarily true for some or even most other changes. They're all subject to their own scaling laws and interactions with other system inputs. There's no obvious reason to think a wind turbine that's twice as large should have essentially the same cost structure. Yet it does. Larger wind turbines are actually more expensive on a per-kW basis, but somehow the concomitant reductions in financing rates and improvements in operations & maintenance were sufficient to achieve cost structure parity.
+Again, this is very unusual. A few changes like increased efficiencies would result in across-the-board cost reductions, but this isn't necessarily true for some or even most other improvements. They're all subject to their own scaling laws and interactions with other system inputs. There's no obvious reason to think a wind turbine that's twice as large should have essentially the same cost structure. Yet it does. Larger wind turbines are actually more expensive on a per-kW basis, but somehow the concomitant reductions in financing rates and improvements in operations & maintenance were sufficient to achieve cost structure parity.
 
 ## Reusable launch vehicles
 
