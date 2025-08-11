@@ -411,7 +411,7 @@ Energy density in NMC/NCA batteries is a strong function of nickel content. (<a 
 </figure>
 
 
-Cobalt and manganese/aluminum are used to as stabilizers. One of the biggest downsides is that cobalt is expensive (roughly \\$35,000/ton) and has a [precarious and ethically fraught supply chain](https://e360.yale.edu/features/siddharth-kara-cobalt-mining-labor-congo). NMC/NCA battery improvements have focused on minimizing the amount of cobalt required while maximizing nickel content. 
+Cobalt and manganese/aluminum are used as stabilizers. One of the biggest downsides is that cobalt is expensive (roughly \\$35,000/ton) and has a [precarious and ethically fraught supply chain](https://e360.yale.edu/features/siddharth-kara-cobalt-mining-labor-congo). NMC/NCA battery improvements have focused on minimizing the amount of cobalt required while maximizing nickel content. 
 
 <figure>
 <img src="/img/cost_structure/nmc_evolution.png">
