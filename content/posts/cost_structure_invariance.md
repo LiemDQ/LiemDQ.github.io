@@ -371,7 +371,7 @@ SpaceX remains the only company with reusable rocket technology today. But other
 
 It's clear, however, that simply having a high-performance reusable launch vehicle isn't sufficient: the entire concept of operations beginning from production to qualification to lift-off must be examined.
 
-Through the lens of cost structure invariance, SpaceX's aspiring competitors can be assessed. In doing so, it becomes possible to identify the companies who [seem to understand how to build a competitive product](https://rocketlabcorp.com/launch/neutron/) from [those who don't](https://www.blueorigin.com/new-glenn), and [those who are unserious](https://www.relativityspace.com/terran-r).
+Through the lens of cost structure invariance, SpaceX's aspiring competitors can be assessed. In doing so, one identify the companies who [stand a chance at building a competitive product](https://rocketlabcorp.com/launch/neutron/) from [those who don't](https://www.blueorigin.com/new-glenn), and [those who are unserious](https://www.relativityspace.com/terran-r).
 
 ## Electric vehicle batteries
 
