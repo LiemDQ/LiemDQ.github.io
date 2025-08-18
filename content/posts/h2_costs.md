@@ -1,6 +1,6 @@
 ---
 title: "Why Are Green Hydrogen Projects So Expensive?"
-draft: True
+draft: False
 date: 2025-08-17
 author: Liem Dam-Quang
 categories: ["engineering", "hydrogen"]
