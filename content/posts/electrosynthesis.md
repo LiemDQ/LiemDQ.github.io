@@ -3,7 +3,7 @@ title: "Making Industrial Electrosynthesis Viable"
 draft: false
 date: 2025-05-16
 author: Liem Dam-Quang
-categories: ["chemistry", "engineering"]
+categories: ["chemistry", "engineering", "hydrogen"]
 ---
 
 

@@ -3,7 +3,7 @@ title: "Do We Need Better Hydrogen Catalysts?"
 draft: false
 date: 2025-07-07
 author: Liem Dam-Quang
-categories: ["chemistry", "energy"]
+categories: ["chemistry", "energy", "hydrogen"]
 ---
 
 Renewable energy technology is a tale of two trajectories. Over the past decade, we've seen dramatic cost reductions for solar power, wind power, and batteries stemming from a mixture of [technological improvements, economies of scale and learning effects](https://ourworldindata.org/cheap-renewables-growth). This is all great news for decarbonization, yet a few key pieces are still missing[^2]. Critically, we need a form of cheap, scalable, long-term energy storage, a means of decarbonizing heavy industry and chemical synthesis, and a form of chemical energy for long-haul transportation where batteries will likely be impractical for the foreseeable future. Is green hydrogen the solution?
