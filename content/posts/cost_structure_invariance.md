@@ -28,10 +28,11 @@ Decade after decade, die shrink after die shrink, reliably and *inevitably*: the
 
 This was the crux of [Gordon Moore's original prediction](http://cva.stanford.edu/classes/cs99s/papers/moore-crammingmorecomponents.pdf). It's been twisted into a statement about technical performance—i.e., transistor densities—over the years, but it was originally about *economics*. Specifically, Moore predicted that the economically optimal transistor density would double roughly every 2 years.
 
-![Moore's Law](/img/cost_structure/mooreslaw.png "Gordon Moore's original cost/transistor density plot.")
+![Moore's law](/img/cost_structure/mooreslaw.png "Gordon Moore's original cost/transistor density plot.")
 
 
-For most people, this is the more salient metric: it relates the amount of resources they need to expend to obtain a given amount of computing power. This sustained exponential cost decline is what ultimately enabled the mass adoption of computers. 
+For most people, this is the more salient metric: it relates the amount of resources they need to expend to obtain a given amount of computing power. This sustained exponential cost decline is what ultimately enabled the mass adoption of computers.
+
 ### Moore's law: still alive, but ailing
 
 Mainstream publications love to repeat that Moore's law is dead. It doesn't take long to find stories about how [transistors have been getting more expensive since the 28 nm process node](https://www.fabricatedknowledge.com/p/the-rising-tide-of-semiconductor), and about the fabulously exorbitant construction costs of leading-edge chip foundries. The reality is more complex. Chip manufacturing costs are still declining on a per-transistor basis.  
@@ -95,7 +96,7 @@ At the same time, mistakes are getting costlier. A bad design represents a setba
 
 Yet the verification step also relies on simplifications and assumptions to make the job tractable. If the behavior of each logic gate can't be decoupled from the behavior of other logic gates, there is an exponentially growing state space with $O(2^N)$ possible configurations even if you naïvely assume every gate can only have two possible states. With billions of transistors on a single chip, an exhaustive analysis is literally impossible, requiring an amount of computing time so incomprehensibly vast it would make the heat death of the universe seem like a blip in comparison.
 
-Furthermore, many aspects of physical design are tightly intertwined with verification feedback loops, such as [optical proximity correction](https://en.wikipedia.org/wiki/Optical_proximity_correction) or net routing under [multiple patterning constraints](https://semiengineering.com/knowledge_centers/manufacturing/patterning/multipatterning/) . These have their own, often nonlinear complexity scaling rates[^26]. A bottleneck here can easily propagate to the rest of the development process, slowing it to a crawl.
+Furthermore, many aspects of physical design are tightly intertwined with verification feedback loops, such as [optical proximity correction](https://en.wikipedia.org/wiki/Optical_proximity_correction) or net routing under [multiple patterning constraints](https://semiengineering.com/knowledge_centers/manufacturing/patterning/multipatterning/). These have their own, often nonlinear complexity scaling rates[^26]. A bottleneck here can easily propagate to the rest of the development process, slowing it to a crawl.
 
 These coupling effects are managed through *design rules*. These are restrictions on how and where to place circuit elements to avoid difficult-to-predict edge scenarios. In modern workflows, these are handled by a [Design Rule Checker (DRC)](https://www.synopsys.com/glossary/what-is-design-rule-checking.html) which automatically detects rule violations, drastically reducing the amount of work required by designers. The DRC allows for the verification stack to be simplified and keeps the number of simulation cases down.
 
@@ -162,7 +163,7 @@ What's going on here? I suspect there's a phenomenon which I'm going to call the
 
 Many design decisions will represent a tradeoff between different cost items, such as capital costs and energy consumption. As such, there will be some "optimal" combination of inputs that results in the lowest overall production cost, or highest performance on some metric that we care about. The cost structure is thus an *output* of the resulting optimization.
 
-It's best to illustrate this with an example. Let's say we have some engineered system or product with 4 major cost items: labor, material, energy and capital amortization. The cost breakdown below. 
+It's best to illustrate this with an example. Let's say we have some engineered system or product with 4 major cost items: labor, material, energy and capital amortization. The cost breakdown is found below. 
 
 ![Example pie chart](/img/cost_structure/pie.png)
 
@@ -177,7 +178,7 @@ In this case, redesigning the system to use 2X more materials (or materials that
 To further illustrate this idea, let's explore some more examples in detail.
 ## Water desalination
 
-Water desalination has undergone a revolution since the advent of the [first large-scale desalination plant in Freeport, Texas.](https://www.sciencehistory.org/stories/magazine/nor-any-drop-to-drink/) Initially, desalination plants used multi-stage flash distillation (MSF), which employed mature and well-understood technologies at the expense of high energy consumption. Nowadays, MSF is slowly being phased out in favor of reverse osmosis (RO) desalination. Between 1970 and 2004, RO membrane desalination drastically improved, with energy consumption decreased by eightfold.
+Water desalination has undergone a revolution since the advent of the [first large-scale desalination plant in Freeport, Texas.](https://www.sciencehistory.org/stories/magazine/nor-any-drop-to-drink/) Initially, desalination plants used multi-stage flash distillation (MSF), which employed mature and well-understood technologies at the expense of high energy consumption. Nowadays, MSF is slowly being phased out in favor of reverse osmosis (RO) desalination. Between 1970 and 2004, RO membrane desalination drastically improved, with energy consumption decreased eightfold.
 
 
 <figure>
@@ -211,13 +212,13 @@ If these efficiency improvements directly translated to reduced energy costs, we
 
 Aside from the membranes, most of the components in a desalination plant are pretty standard items like pumps and valves. These are products that are already technologically mature and mass-produced—not things that would be expected to get significantly cheaper. 
 
-Normalizing the cost breakdowns shows an interesting trend—or rather, a lack of one. Relative energy costs decreased slightly in 2005, but there doesn't seem to be any discernable pattern in the cost allocation. For instance, between 1985 and 1995, the membrane energy consumption dropped by half, yet the relative proportion of energy costs remained the same.
+Normalizing the cost breakdowns shows an interesting trend—or rather, a lack of one. Relative energy costs decreased slightly in 2005, but there doesn't seem to be any discernible pattern in the cost allocation. For instance, between 1985 and 1995, the membrane energy consumption dropped by half, yet the relative proportion of energy costs remained the same.
 
 ![Desal cost structure](/img/cost_structure/desal_structure.png "Normalized cost structure of desalination.")
 
 ## Onshore wind energy
 
-The core technologies for utility-scale wind energy have been around since the 1980s. In the US, wind turbines initially rapidly decreased in cost. But by the early 2000's, prices had [bottomed out, stagnated and began to increase](https://docs.nrel.gov/docs/fy12osti/54526.pdf) due to rising commodity prices and labor costs.
+The core technologies for utility-scale wind energy have been around since the 1980s. In the US, wind turbines initially rapidly decreased in cost. But by the early 2000s, prices had [bottomed out, stagnated and began to increase](https://docs.nrel.gov/docs/fy12osti/54526.pdf) due to rising commodity prices and labor costs.
 
 <figure>
 <img src="/img/cost_structure/wind_eia.png">
@@ -242,7 +243,7 @@ The larger volumes allowed wind turbine manufacturers to exploit economies of sc
 <figure>
 <img src="/img/cost_structure/wind_wacc.png">
 <figcaption>
-Data obtained Department of Energy annual market reports.
+Data obtained from US Department of Energy annual market reports.
 </figcaption>
 </figure>
 
@@ -292,7 +293,7 @@ The promise of safe, cheap and frequent access to space turned out to be illusor
 ![Shuttle reality](/img/cost_structure/shuttle_refurb.png "Expectations vs. reality. The Shuttle required extensive time in dry dock for refurbishment between missions.")
 
 
-Beyond refurbishment considerations, the Shuttle's shear complexity was problematic as well. Between the orbiter, SRBs and external fuel tank, there were over 2.5 million parts that required extensive testing to qualify them for flight. All the infrastructure required to support these operations was extensive, and the fixed costs ran into over a billion dollars annually. A [1993 GAO report](https://www.gao.gov/assets/nsiad-93-115.pdf) revealed that the fixed costs accounted for 90% of the shuttle's launch costs!
+Beyond refurbishment considerations, the Shuttle's sheer complexity was problematic as well. Between the orbiter, SRBs and external fuel tank, there were over 2.5 million parts that required extensive testing to qualify them for flight. All the infrastructure required to support these operations was extensive, and the fixed costs ran into over a billion dollars annually. A [1993 GAO report](https://www.gao.gov/assets/nsiad-93-115.pdf) revealed that the fixed costs accounted for 90% of the shuttle's launch costs!
 
 ![Shuttle cost structure](/img/cost_structure/shuttle_structure.png "Breakdown of shuttle launch costs, broken down between fixed and marginal costs in green.")
 
@@ -316,7 +317,7 @@ Delta IV Heavy rocket lifting off.
 </figure>
 
 
-The situation looks starkly different these days. SpaceX has usurped ULA in their own niche, becoming the [major launch provider for the US military](https://www.spaceforce.mil/News/Article-Display/Article/4146459/space-systems-command-awards-national-security-space-launch-phase-3-lane-2-cont/) and the lion's share of commercial launch contracts. Meanwhile, it's struggled to ramp up the launch cadence of its Vulcan rocket and has suffered several teething issues. 
+The situation looks starkly different these days. SpaceX has usurped ULA in its own niche, becoming the [major launch provider for the US military](https://www.spaceforce.mil/News/Article-Display/Article/4146459/space-systems-command-awards-national-security-space-launch-phase-3-lane-2-cont/) and the lion's share of commercial launch contracts. Meanwhile, it's struggled to ramp up the launch cadence of its Vulcan rocket and has suffered several teething issues. 
 
 The reasons for its decline and struggle to compete with SpaceX are well-documented. Its parent companies, Boeing and Lockheed Martin, were unwilling to reinvest money back into the company. Political meddling to protect the SLS killed any possibility of funding for its plans for in-orbit refueling. [Manufacturing problems and development delays at Blue Origin](https://arstechnica.com/science/2021/08/blue-origins-powerful-be-4-engine-is-more-than-four-years-late-heres-why/), its engine supplier, and [issues with its upper stage](https://www.space.com/ula-vulcan-rocket-testing-anomaly-launch-delay) pushed back the launch date for its new Vulcan rocket and [upset the Pentagon](https://payloadspace.com/pentagon-frets-about-ulas-vulcan-delays/), its main customer. 
 
@@ -324,7 +325,7 @@ Most notable of all was ULA's doubling down on expendable rockets at a time when
 
 To many, ULA is the epitome of 'Old Space': a pejorative thrown at organizations viewed as unfit—too slow, too stodgy, too bureaucratic, too risk-averse, too *incompetent*—to compete in today's space industry. Clearly, there's some truth to that, given their current situation, but I think there's some nuance to the situation and more importantly, some insight to be gleaned.
 
-I think it's a mistake to simply dismiss ULA as being uniquely short-sighted and lacking in technical expertise. After all, their European counterpart Arianespace made a similar mistake and is now equally struggling. ULA didn't suffer from a lack of creativity—they did cook up those concepts for in-orbit refueling and it's not like reusability was some obscure concept. Even vertically landing rockets [weren't novel by the late 2000's](https://www.youtube.com/watch?v=fOvqZ8jWjiA). It wasn't so much a question of feasibility as it was one of economic viability, and ULA had found the business case uncompelling. 
+I think it's a mistake to simply dismiss ULA as being uniquely short-sighted and lacking in technical expertise. After all, their European counterpart Arianespace made a similar mistake and is now equally struggling. ULA didn't suffer from a lack of creativity—they did cook up those concepts for in-orbit refueling and it's not like reusability was some obscure concept. Even vertically landing rockets [weren't novel by the late 2000s](https://www.youtube.com/watch?v=fOvqZ8jWjiA). It wasn't so much a question of feasibility as it was one of economic viability, and ULA had found the business case uncompelling. 
 
 In 2015, [George Sowers](https://mechanical.mines.edu/project/sowers-george/), at the time ULA's Chief Scientist and VP of Advanced Programs, [uploaded a whitepaper on NASASpaceflight](https://forum.nasaspaceflight.com/index.php?topic=37390.0) (a discussion board for space enthusiasts) that explained ULA's reasoning. His argument was that the cost of launching a rocket includes:
 
@@ -338,7 +339,7 @@ I found the way Sowers set up his equations a little confusing, so I made some m
 
 ![Reuse cost index](/img/cost_structure/reuse_index.png "Cost savings of reusability vs. launches per rocket, according to ULA. The 'reuse cost index' denotes the launch cost of a reusable rocket relative to a comparable expendable rocket. A value of 1 means both cost the same.")
 
-ULA claims that that the reusable hardware only comprises about 30% of the cost to launch. 70% of their expenses are unrecoverable! All in all, this would suggest that the savings from reuse would only amount to a 10% cost reduction! Regardless of how one feels about ULA's other failings, it's hard to blame their leadership for deciding their efforts were better spent elsewhere. With the benefit of hindsight, though, it's plain to see that ULA was wrong, so where was their mistake? 
+ULA claims that the reusable hardware only comprises about 30% of the cost to launch. 70% of their expenses are unrecoverable! All in all, this would suggest that the savings from reuse would only amount to a 10% cost reduction! Regardless of how one feels about ULA's other failings, it's hard to blame their leadership for deciding their efforts were better spent elsewhere. With the benefit of hindsight, though, it's plain to see that ULA was wrong, so where was their mistake? 
 
 I believe it was from assuming that a reusable rocket *would be used as a drop-in replacement in an existing operational structure built around expendable rockets.* Or put differently: ULA underestimated *how far SpaceX was willing to go to make reusability work.* 
 
@@ -371,7 +372,7 @@ SpaceX remains the only company with reusable rocket technology today. But other
 
 It's clear, however, that simply having a high-performance reusable launch vehicle isn't sufficient: the entire concept of operations beginning from production to qualification to lift-off must be examined.
 
-Through the lens of cost structure invariance, SpaceX's aspiring competitors can be assessed. In doing so, one identify the companies who [stand a chance at building a competitive product](https://rocketlabcorp.com/launch/neutron/) from [those who don't](https://www.blueorigin.com/new-glenn), and [those who are unserious](https://www.relativityspace.com/terran-r).
+Through the lens of cost structure invariance, SpaceX's aspiring competitors can be assessed. In doing so, one can identify the companies who [stand a chance at building a competitive product](https://rocketlabcorp.com/launch/neutron/) from [those who don't](https://www.blueorigin.com/new-glenn), and [those who are unserious](https://www.relativityspace.com/terran-r).
 
 ## Electric vehicle batteries
 
@@ -460,7 +461,7 @@ Bedrock's analysis is somewhat technically dense, but it boils down to the knock
 
 ![Effect of volumetric energy density](/img/cost_structure/bedrock_density.png "When volumetric energy density drops, the amount of non-active material needed to achieve a given amount of capacity increases.")
 
-The main limiting factor in Na-ion chemistries are the hard carbon anodes. They have about 40% less charge density than the graphite anodes ubiquitously found in Li-ion chemistries.
+The main limiting factor in Na-ion chemistries is the hard carbon anodes. They have about 40% less charge density than the graphite anodes ubiquitously found in Li-ion chemistries.
 
 ![HC anodes](/img/cost_structure/bedrock_hc.png)
 
@@ -477,7 +478,7 @@ We can look at how a similar story played out in lithium-ion batteries to get so
 
 By the end of the 2010s, NCA and NMC had become the dominant battery chemistries for electric vehicles. They offered a desirable combination of reasonable cost, excellent energy density, decent lifetime and an acceptable safety profile.
 
-Despite their cost, safety and longevity advantages, LFP batteries were in the process of being supplanted in the EV market. The once-formidable stability and manufacturing challenges of NMC were being tamed, and LFP's lower energy density meant that it wasn't a competitive chemistry except for large vehicles with short ranges, such as city buses. By 2020, many analysts were predicting that LFP would be [slowly pushed out of the market](https://www.woodmac.com/news/opinion/how-electric-vehicles-are-driving-the-nickel-sulphate-market/) in favor of NMC. Some went as far as to claim that LFP would [phased out of the market by 2025](https://lghomebatteryblog.eu/this-is-why-ncm-is-the-preferable-cathode-material-for-li-ion-batteries/)!
+Despite their cost, safety and longevity advantages, LFP batteries were in the process of being supplanted in the EV market. The once-formidable stability and manufacturing challenges of NMC were being tamed, and LFP's lower energy density meant that it wasn't a competitive chemistry except for large vehicles with short ranges, such as city buses. By 2020, many analysts were predicting that LFP would be [slowly pushed out of the market](https://www.woodmac.com/news/opinion/how-electric-vehicles-are-driving-the-nickel-sulphate-market/) in favor of NMC. Some went as far as to claim that LFP would be [phased out of the market by 2025](https://lghomebatteryblog.eu/this-is-why-ncm-is-the-preferable-cathode-material-for-li-ion-batteries/)!
 
 <figure>
 <img src="/img/cost_structure/lg_prediction.png">
@@ -513,13 +514,13 @@ Projected market share of different battery chemistries by year, by BNEF. (<a hr
 
 ### Was Bedrock correct?
 
-Contextualizing this, it becomes clear that the road to competitive Na-ion chemistries lies in their specific properties vis-à-vis Li-ion, and not simply just the raw materials. For instance, Bedrock mentions that they assumed that the thermal properties were "identical" to Li-ion. Is this actually true[^19]? I don't know, and I don't think anyone knows—there are too many differences between Na-ion and Li-ion chemistries for a straightforward comparison. But it seems like the answer to this question could truly make or break Na-ion in EVs. 
+Contextualizing this, it becomes clear that the road to competitive Na-ion chemistries lies in their specific properties vis-à-vis Li-ion, and not just the raw materials. For instance, Bedrock mentions that they assumed that the thermal properties were "identical" to Li-ion. Is this actually true[^19]? I don't know, and I don't think anyone knows—there are too many differences between Na-ion and Li-ion chemistries for a straightforward comparison. But it seems like the answer to this question could truly make or break Na-ion in EVs. 
 
 ![Battery cost structure](/img/cost_structure/battery_structure.png "Normalized breakdown between cell and pack costs.")
 
 To be clear, I'm not criticizing Bedrock's decision to close up shop. It seems sensible enough. My point here is that the road to market entry rarely hinges on a single component.
 
-The takeaway is that they would've needed to redesign the cells and the pack itself to use less materials and accommodate larger amounts of active material. But this might not have been acceptable to EV manufacturers, who could be expecting a standardized cell and pack design. The automotive industry is notoriously conservative and wary about introducing new, unproven technologies, since recalls are extremely costly. BYD was able get away with this because they were vertically integrated and willing to assume the risk of a new battery architecture in their products.
+The takeaway is that they would've needed to redesign the cells and the pack itself to use less supporting material and accommodate larger amounts of active material. But this might not have been acceptable to EV manufacturers, who could be expecting a standardized cell and pack design. The automotive industry is notoriously conservative and wary about introducing new, unproven technologies, since recalls are extremely costly. BYD was able to get away with this because they were vertically integrated and willing to assume the risk of a new battery architecture in their products.
 
 ## How do we draw the rest of the owl?
 
@@ -535,9 +536,9 @@ And just like those laws, its usefulness comes not from its specific quantitativ
 
 I find it a useful framework because I think it captures a few important ideas about the nature of innovation and so-called 'learning curves'. Big cost reductions may originate from a focused improvement in a small number of metrics, or the substitution of one component for a novel one. But the process of translating those gains to the market is a holistic one. This means that the potential gains are immense, but it may also require a complete re-thinking of a product from the ground up. The fundamental assumptions and requirements driving the design must be revised. If Y is a better version of X, we shouldn't be asking "how can we replace X with Y?", but rather "how can we use Y to get rid of the stuff that isn't X?"
 
-Finding the answer to that doesn't come from staring at stuffy costing spreadsheets and nicely colored slide decks packed with bar charts—it requires time on the shop floor and a focused, deep knowledge of a problem domain. The choice of categories for the cost structure is simply what feels "natural": perhaps because they're reflective of some bottom-up knowledge—however superficial—of what items are result in the most representative discrete categorizations without getting lost in the weeds. 
+Finding the answer to that doesn't come from staring at stuffy costing spreadsheets and nicely colored slide decks packed with bar charts—it requires time on the shop floor and a focused, deep knowledge of a problem domain. The choice of categories for the cost structure is simply what feels "natural": perhaps because they're reflective of some bottom-up knowledge—however superficial—of what items result in the most representative discrete categorizations without getting lost in the weeds. 
 
-Furthermore, when requirements or assumptions about the design are externally imposed, the cost structure is no longer free to change in response to a change in the inputs. These external requirements can be due to government regulation, customer demands, bureaucracy, or just simply [institutional inertia](https://liem.ca/posts/oss_success/).
+Furthermore, when requirements or assumptions about the design are externally imposed, the cost structure is no longer free to change in response to a change in the inputs. These external requirements can be due to government regulation, customer demands, bureaucracy, or simply [institutional inertia](https://liem.ca/posts/oss_success/).
 
 The end result, however, is the same. New techniques and new technologies fail to improve performance as much as expected, or *even end up performing worse overall* as adaptations are required to accommodate them.
 
@@ -553,9 +554,8 @@ If there's any lesson to be learned from the shop floor, it's that obviousness d
 
 [^3]: Before SpaceX, this was a fairly uncommon practice. Perhaps because the cost savings weren't worth it for expendable rockets, and it was more important to squeeze as much performance out of the upper stages as possible.
 
-[^4]: Still a relatively small market back in those days.
 
-[^6]: Northvolt's core thesis was essentially "NMC is good enough to electrify cars; we just need to go all in on NMC and massively scale up production." The timing of LFP's surge couldn't have been worse, as it happened just as they had committed billions of dollars in funding to their Skelleftea factory.
+[^6]: Northvolt's core thesis was essentially "NMC is good enough to electrify cars; we just need to go all in on NMC and massively scale up production." The timing of LFP's surge couldn't have been worse, as it happened just as they had committed billions of dollars in funding to their Skellefteå factory.
 
 [^7]: To be fair, most of that growth [has been in China](https://www.iea.org/reports/global-ev-outlook-2024/trends-in-electric-vehicle-batteries). Market penetration in Europe and the US has been more limited. 
 
